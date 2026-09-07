@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#7ec8ff" />
+    <link rel="icon" href="data:," />
+    <title>识字小镇 · Character Town</title>
+    <script type="module" crossorigin src="/assets/index-LB1kmnhk.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-JsREtGUD.css">
+  </head>
+  <body>
+    <main id="app">
+      <canvas id="game-canvas" aria-label="识字小镇 Three.js 游戏画布"></canvas>
+
+      <!-- 顶部：图片提示 + 拼音 + 词语 -->
+      <section id="prompt-card" aria-live="polite">
+        <div id="prompt-picture" aria-hidden="true">☀️</div>
+        <div id="prompt-text">
+          <div id="prompt-pinyin">tài yáng</div>
+          <div id="prompt-word">
+            <span class="char-slot" data-slot="0">?</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 关卡进度 + 鼓励语 -->
+      <section id="round-bar" aria-live="polite">
+        <div id="round-dots" aria-label="关卡进度"></div>
+        <div id="status-line">准备好啦！走向正确的汉字 ✨</div>
+      </section>
+
+      <!-- 开始 / 结束 弹窗 -->
+      <section id="overlay" class="overlay-visible">
+        <div id="overlay-card">
+          <h1 id="overlay-title">识字小镇</h1>
+          <p id="overlay-body">看图选字。走向正确的汉字方块，就能学会新字啦！</p>
+          <button id="overlay-button" type="button">开始游戏</button>
+        </div>
+      </section>
+
+      <!-- 触屏移动 -->
+      <div id="touch-controls" aria-hidden="true">
+        <div id="touch-stick">
+          <div id="touch-knob"></div>
+        </div>
+        <!-- 占位按钮（保持 InputController 依赖；触屏上隐藏） -->
+        <button id="dash-button" type="button" tabindex="-1" aria-hidden="true"></button>
+      </div>
+    </main>
+  </body>
+</html>
