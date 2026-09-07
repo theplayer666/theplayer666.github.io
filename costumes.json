@@ -1,0 +1,94 @@
+{
+  "costumes": [
+    {
+      "id": "default",
+      "name": "小白兔",
+      "unlock": 0,
+      "primary": "#ffd0e0",
+      "secondary": "#ffc1d6",
+      "accessory": "none",
+      "accessoryColor": "#ffffff"
+    },
+    {
+      "id": "pink-bow",
+      "name": "粉红蝴蝶结",
+      "unlock": 10,
+      "primary": "#ffd0e0",
+      "secondary": "#ff8fb8",
+      "accessory": "bow",
+      "accessoryColor": "#ff7ab0"
+    },
+    {
+      "id": "yellow-hat",
+      "name": "黄色小帽",
+      "unlock": 20,
+      "primary": "#fff0d0",
+      "secondary": "#ffd96b",
+      "accessory": "hat",
+      "accessoryColor": "#ffc845"
+    },
+    {
+      "id": "blue-scarf",
+      "name": "蓝色围巾",
+      "unlock": 30,
+      "primary": "#dfeefc",
+      "secondary": "#a8d5ff",
+      "accessory": "scarf",
+      "accessoryColor": "#5fb1f5"
+    },
+    {
+      "id": "purple-glasses",
+      "name": "紫色眼镜",
+      "unlock": 40,
+      "primary": "#ece4ff",
+      "secondary": "#c8b6f8",
+      "accessory": "glasses",
+      "accessoryColor": "#8c6cd9"
+    },
+    {
+      "id": "red-cape",
+      "name": "红色披风",
+      "unlock": 50,
+      "primary": "#ffd9d9",
+      "secondary": "#ff8a8a",
+      "accessory": "cape",
+      "accessoryColor": "#e94f4f"
+    },
+    {
+      "id": "green-leaf",
+      "name": "绿叶头饰",
+      "unlock": 60,
+      "primary": "#dff5d4",
+      "secondary": "#a6e287",
+      "accessory": "leaf",
+      "accessoryColor": "#5fbf42"
+    },
+    {
+      "id": "orange-star",
+      "name": "橙色星星",
+      "unlock": 70,
+      "primary": "#ffe6c2",
+      "secondary": "#ffc06b",
+      "accessory": "star",
+      "accessoryColor": "#ff9a3d"
+    },
+    {
+      "id": "rainbow",
+      "name": "彩虹礼服",
+      "unlock": 80,
+      "primary": "#ffe0f0",
+      "secondary": "#c7e8ff",
+      "accessory": "rainbow",
+      "accessoryColor": "#ff7ab0"
+    },
+    {
+      "id": "golden",
+      "name": "金色公主",
+      "unlock": 95,
+      "primary": "#fff4cc",
+      "secondary": "#ffd770",
+      "accessory": "crown",
+      "accessoryColor": "#ffc23d"
+    }
+  ]
+}

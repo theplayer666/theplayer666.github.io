@@ -1,0 +1,6604 @@
+{
+  "stages": [
+    {
+      "id": "basics",
+      "title": "第一关",
+      "subtitle": "基础笔画",
+      "icon": "一",
+      "rounds": [
+        {
+          "picture": "1️⃣",
+          "pinyin": "yī",
+          "word": "一",
+          "correctIndex": 1,
+          "choices": [
+            "三",
+            "一",
+            "十"
+          ]
+        },
+        {
+          "picture": "2️⃣",
+          "pinyin": "èr",
+          "word": "二",
+          "correctIndex": 1,
+          "choices": [
+            "人",
+            "二",
+            "一"
+          ]
+        },
+        {
+          "picture": "3️⃣",
+          "pinyin": "sān",
+          "word": "三",
+          "correctIndex": 1,
+          "choices": [
+            "十",
+            "三",
+            "二"
+          ]
+        },
+        {
+          "picture": "➕",
+          "pinyin": "shí",
+          "word": "十",
+          "correctIndex": 1,
+          "choices": [
+            "人",
+            "十",
+            "一"
+          ]
+        },
+        {
+          "picture": "🧒",
+          "pinyin": "rén",
+          "word": "人",
+          "correctIndex": 0,
+          "choices": [
+            "人",
+            "三",
+            "二"
+          ]
+        }
+      ],
+      "theme": "meadow",
+      "themeName": "阳光草地",
+      "themeSubtitle": "自然起步"
+    },
+    {
+      "id": "directions",
+      "title": "第二关",
+      "subtitle": "方位大小",
+      "icon": "大",
+      "rounds": [
+        {
+          "picture": "⬆️",
+          "pinyin": "shàng",
+          "word": "上",
+          "correctIndex": 0,
+          "choices": [
+            "上",
+            "大",
+            "小"
+          ]
+        },
+        {
+          "picture": "⬇️",
+          "pinyin": "xià",
+          "word": "下",
+          "correctIndex": 1,
+          "choices": [
+            "天",
+            "下",
+            "小"
+          ]
+        },
+        {
+          "picture": "🦏",
+          "pinyin": "dà",
+          "word": "大",
+          "correctIndex": 0,
+          "choices": [
+            "大",
+            "下",
+            "小"
+          ]
+        },
+        {
+          "picture": "🐜",
+          "pinyin": "xiǎo",
+          "word": "小",
+          "correctIndex": 1,
+          "choices": [
+            "天",
+            "小",
+            "下"
+          ]
+        },
+        {
+          "picture": "⛅",
+          "pinyin": "tiān",
+          "word": "天",
+          "correctIndex": 0,
+          "choices": [
+            "天",
+            "大",
+            "下"
+          ]
+        }
+      ],
+      "theme": "meadow",
+      "themeName": "阳光草地",
+      "themeSubtitle": "自然起步"
+    },
+    {
+      "id": "heaven",
+      "title": "第三关",
+      "subtitle": "天地日月",
+      "icon": "日",
+      "rounds": [
+        {
+          "picture": "☀️",
+          "pinyin": "rì",
+          "word": "日",
+          "correctIndex": 1,
+          "choices": [
+            "月",
+            "日",
+            "水"
+          ]
+        },
+        {
+          "picture": "🌙",
+          "pinyin": "yuè",
+          "word": "月",
+          "correctIndex": 2,
+          "choices": [
+            "水",
+            "山",
+            "月"
+          ]
+        },
+        {
+          "picture": "⛰️",
+          "pinyin": "shān",
+          "word": "山",
+          "correctIndex": 2,
+          "choices": [
+            "水",
+            "日",
+            "山"
+          ]
+        },
+        {
+          "picture": "🔥",
+          "pinyin": "huǒ",
+          "word": "火",
+          "correctIndex": 1,
+          "choices": [
+            "水",
+            "火",
+            "月"
+          ]
+        },
+        {
+          "picture": "💧",
+          "pinyin": "shuǐ",
+          "word": "水",
+          "correctIndex": 2,
+          "choices": [
+            "日",
+            "火",
+            "水"
+          ]
+        }
+      ],
+      "theme": "meadow",
+      "themeName": "阳光草地",
+      "themeSubtitle": "自然起步"
+    },
+    {
+      "id": "elements",
+      "title": "第四关",
+      "subtitle": "自然万物",
+      "icon": "木",
+      "rounds": [
+        {
+          "picture": "🌳",
+          "pinyin": "mù",
+          "word": "木",
+          "correctIndex": 0,
+          "choices": [
+            "木",
+            "田",
+            "土"
+          ]
+        },
+        {
+          "picture": "🌍",
+          "pinyin": "tǔ",
+          "word": "土",
+          "correctIndex": 0,
+          "choices": [
+            "土",
+            "田",
+            "石"
+          ]
+        },
+        {
+          "picture": "🪨",
+          "pinyin": "shí",
+          "word": "石",
+          "correctIndex": 0,
+          "choices": [
+            "石",
+            "土",
+            "禾"
+          ]
+        },
+        {
+          "picture": "🌾",
+          "pinyin": "tián",
+          "word": "田",
+          "correctIndex": 0,
+          "choices": [
+            "田",
+            "禾",
+            "木"
+          ]
+        },
+        {
+          "picture": "🌾",
+          "pinyin": "hé",
+          "word": "禾",
+          "correctIndex": 2,
+          "choices": [
+            "木",
+            "石",
+            "禾"
+          ]
+        }
+      ],
+      "theme": "meadow",
+      "themeName": "阳光草地",
+      "themeSubtitle": "自然起步"
+    },
+    {
+      "id": "body",
+      "title": "第五关",
+      "subtitle": "五官四肢",
+      "icon": "手",
+      "rounds": [
+        {
+          "picture": "👀",
+          "pinyin": "mù",
+          "word": "目",
+          "correctIndex": 2,
+          "choices": [
+            "耳",
+            "口",
+            "目"
+          ]
+        },
+        {
+          "picture": "👂",
+          "pinyin": "ěr",
+          "word": "耳",
+          "correctIndex": 1,
+          "choices": [
+            "足",
+            "耳",
+            "目"
+          ]
+        },
+        {
+          "picture": "👄",
+          "pinyin": "kǒu",
+          "word": "口",
+          "correctIndex": 0,
+          "choices": [
+            "口",
+            "耳",
+            "手"
+          ]
+        },
+        {
+          "picture": "✋",
+          "pinyin": "shǒu",
+          "word": "手",
+          "correctIndex": 0,
+          "choices": [
+            "手",
+            "足",
+            "口"
+          ]
+        },
+        {
+          "picture": "🦶",
+          "pinyin": "zú",
+          "word": "足",
+          "correctIndex": 1,
+          "choices": [
+            "耳",
+            "足",
+            "目"
+          ]
+        }
+      ],
+      "theme": "meadow",
+      "themeName": "阳光草地",
+      "themeSubtitle": "自然起步"
+    },
+    {
+      "id": "numbers",
+      "title": "第六关",
+      "subtitle": "数字与儿",
+      "icon": "六",
+      "rounds": [
+        {
+          "picture": "6️⃣",
+          "pinyin": "liù",
+          "word": "六",
+          "correctIndex": 2,
+          "choices": [
+            "九",
+            "七",
+            "六"
+          ]
+        },
+        {
+          "picture": "7️⃣",
+          "pinyin": "qī",
+          "word": "七",
+          "correctIndex": 2,
+          "choices": [
+            "九",
+            "儿",
+            "七"
+          ]
+        },
+        {
+          "picture": "9️⃣",
+          "pinyin": "jiǔ",
+          "word": "九",
+          "correctIndex": 0,
+          "choices": [
+            "九",
+            "了",
+            "六"
+          ]
+        },
+        {
+          "picture": "👶",
+          "pinyin": "ér",
+          "word": "儿",
+          "correctIndex": 1,
+          "choices": [
+            "了",
+            "儿",
+            "九"
+          ]
+        },
+        {
+          "picture": "✔️",
+          "pinyin": "le",
+          "word": "了",
+          "correctIndex": 2,
+          "choices": [
+            "六",
+            "儿",
+            "了"
+          ]
+        }
+      ],
+      "theme": "farm",
+      "themeName": "农场牧场",
+      "themeSubtitle": "身边万物"
+    },
+    {
+      "id": "family",
+      "title": "第七关",
+      "subtitle": "家庭成员",
+      "icon": "子",
+      "rounds": [
+        {
+          "picture": "👦",
+          "pinyin": "zǐ",
+          "word": "子",
+          "correctIndex": 1,
+          "choices": [
+            "先",
+            "子",
+            "父"
+          ]
+        },
+        {
+          "picture": "👧",
+          "pinyin": "nǚ",
+          "word": "女",
+          "correctIndex": 1,
+          "choices": [
+            "父",
+            "女",
+            "先"
+          ]
+        },
+        {
+          "picture": "👨",
+          "pinyin": "fù",
+          "word": "父",
+          "correctIndex": 1,
+          "choices": [
+            "子",
+            "父",
+            "先"
+          ]
+        },
+        {
+          "picture": "👩",
+          "pinyin": "mǔ",
+          "word": "母",
+          "correctIndex": 1,
+          "choices": [
+            "女",
+            "母",
+            "子"
+          ]
+        },
+        {
+          "picture": "👴",
+          "pinyin": "xiān",
+          "word": "先",
+          "correctIndex": 0,
+          "choices": [
+            "先",
+            "母",
+            "子"
+          ]
+        }
+      ],
+      "theme": "farm",
+      "themeName": "农场牧场",
+      "themeSubtitle": "身边万物"
+    },
+    {
+      "id": "animals",
+      "title": "第八关",
+      "subtitle": "飞禽走兽",
+      "icon": "马",
+      "rounds": [
+        {
+          "picture": "🐎",
+          "pinyin": "mǎ",
+          "word": "马",
+          "correctIndex": 2,
+          "choices": [
+            "犬",
+            "羊",
+            "马"
+          ]
+        },
+        {
+          "picture": "🐂",
+          "pinyin": "niú",
+          "word": "牛",
+          "correctIndex": 1,
+          "choices": [
+            "羊",
+            "牛",
+            "猫"
+          ]
+        },
+        {
+          "picture": "🐏",
+          "pinyin": "yáng",
+          "word": "羊",
+          "correctIndex": 1,
+          "choices": [
+            "犬",
+            "羊",
+            "牛"
+          ]
+        },
+        {
+          "picture": "🐕",
+          "pinyin": "quǎn",
+          "word": "犬",
+          "correctIndex": 1,
+          "choices": [
+            "羊",
+            "犬",
+            "猫"
+          ]
+        },
+        {
+          "picture": "🐈",
+          "pinyin": "māo",
+          "word": "猫",
+          "correctIndex": 1,
+          "choices": [
+            "牛",
+            "猫",
+            "马"
+          ]
+        }
+      ],
+      "theme": "farm",
+      "themeName": "农场牧场",
+      "themeSubtitle": "身边万物"
+    },
+    {
+      "id": "weather",
+      "title": "第九关",
+      "subtitle": "风云雨雪",
+      "icon": "云",
+      "rounds": [
+        {
+          "picture": "☁️",
+          "pinyin": "yún",
+          "word": "云",
+          "correctIndex": 2,
+          "choices": [
+            "雪",
+            "风",
+            "云"
+          ]
+        },
+        {
+          "picture": "🌧️",
+          "pinyin": "yǔ",
+          "word": "雨",
+          "correctIndex": 0,
+          "choices": [
+            "雨",
+            "风",
+            "雪"
+          ]
+        },
+        {
+          "picture": "🌬️",
+          "pinyin": "fēng",
+          "word": "风",
+          "correctIndex": 1,
+          "choices": [
+            "雪",
+            "风",
+            "云"
+          ]
+        },
+        {
+          "picture": "❄️",
+          "pinyin": "xuě",
+          "word": "雪",
+          "correctIndex": 1,
+          "choices": [
+            "风",
+            "雪",
+            "虹"
+          ]
+        },
+        {
+          "picture": "🌈",
+          "pinyin": "hóng",
+          "word": "虹",
+          "correctIndex": 2,
+          "choices": [
+            "雪",
+            "风",
+            "虹"
+          ]
+        }
+      ],
+      "theme": "farm",
+      "themeName": "农场牧场",
+      "themeSubtitle": "身边万物"
+    },
+    {
+      "id": "mind",
+      "title": "第十关",
+      "subtitle": "心与行动",
+      "icon": "心",
+      "rounds": [
+        {
+          "picture": "❤️",
+          "pinyin": "xīn",
+          "word": "心",
+          "correctIndex": 1,
+          "choices": [
+            "动",
+            "心",
+            "立"
+          ]
+        },
+        {
+          "picture": "🧍",
+          "pinyin": "lì",
+          "word": "立",
+          "correctIndex": 1,
+          "choices": [
+            "心",
+            "立",
+            "行"
+          ]
+        },
+        {
+          "picture": "🚶",
+          "pinyin": "xíng",
+          "word": "行",
+          "correctIndex": 0,
+          "choices": [
+            "行",
+            "动",
+            "立"
+          ]
+        },
+        {
+          "picture": "🏃",
+          "pinyin": "dòng",
+          "word": "动",
+          "correctIndex": 1,
+          "choices": [
+            "立",
+            "动",
+            "行"
+          ]
+        },
+        {
+          "picture": "🛑",
+          "pinyin": "zhǐ",
+          "word": "止",
+          "correctIndex": 0,
+          "choices": [
+            "止",
+            "立",
+            "行"
+          ]
+        }
+      ],
+      "theme": "farm",
+      "themeName": "农场牧场",
+      "themeSubtitle": "身边万物"
+    },
+    {
+      "id": "tools",
+      "title": "第十一关",
+      "subtitle": "工具力量",
+      "icon": "刀",
+      "rounds": [
+        {
+          "picture": "🔪",
+          "pinyin": "dāo",
+          "word": "刀",
+          "correctIndex": 1,
+          "choices": [
+            "锤",
+            "刀",
+            "力"
+          ]
+        },
+        {
+          "picture": "💪",
+          "pinyin": "lì",
+          "word": "力",
+          "correctIndex": 1,
+          "choices": [
+            "直",
+            "力",
+            "锤"
+          ]
+        },
+        {
+          "picture": "📏",
+          "pinyin": "zhí",
+          "word": "直",
+          "correctIndex": 0,
+          "choices": [
+            "直",
+            "力",
+            "锤"
+          ]
+        },
+        {
+          "picture": "🏹",
+          "pinyin": "gōng",
+          "word": "弓",
+          "correctIndex": 1,
+          "choices": [
+            "直",
+            "弓",
+            "锤"
+          ]
+        },
+        {
+          "picture": "🔨",
+          "pinyin": "chuí",
+          "word": "锤",
+          "correctIndex": 2,
+          "choices": [
+            "力",
+            "弓",
+            "锤"
+          ]
+        }
+      ],
+      "theme": "castle",
+      "themeName": "童话城堡",
+      "themeSubtitle": "学习智慧"
+    },
+    {
+      "id": "royalty",
+      "title": "第十二关",
+      "subtitle": "王与玉石",
+      "icon": "王",
+      "rounds": [
+        {
+          "picture": "👑",
+          "pinyin": "wáng",
+          "word": "王",
+          "correctIndex": 1,
+          "choices": [
+            "瓦",
+            "王",
+            "主"
+          ]
+        },
+        {
+          "picture": "🏛️",
+          "pinyin": "zhǔ",
+          "word": "主",
+          "correctIndex": 2,
+          "choices": [
+            "王",
+            "玉",
+            "主"
+          ]
+        },
+        {
+          "picture": "💎",
+          "pinyin": "yù",
+          "word": "玉",
+          "correctIndex": 2,
+          "choices": [
+            "瓦",
+            "主",
+            "玉"
+          ]
+        },
+        {
+          "picture": "💎",
+          "pinyin": "zhēn",
+          "word": "珍",
+          "correctIndex": 1,
+          "choices": [
+            "瓦",
+            "珍",
+            "王"
+          ]
+        },
+        {
+          "picture": "🏠",
+          "pinyin": "wǎ",
+          "word": "瓦",
+          "correctIndex": 1,
+          "choices": [
+            "王",
+            "瓦",
+            "主"
+          ]
+        }
+      ],
+      "theme": "castle",
+      "themeName": "童话城堡",
+      "themeSubtitle": "学习智慧"
+    },
+    {
+      "id": "writing",
+      "title": "第十三关",
+      "subtitle": "文字书写",
+      "icon": "文",
+      "rounds": [
+        {
+          "picture": "📝",
+          "pinyin": "wén",
+          "word": "文",
+          "correctIndex": 1,
+          "choices": [
+            "书",
+            "文",
+            "纸"
+          ]
+        },
+        {
+          "picture": "🔤",
+          "pinyin": "zì",
+          "word": "字",
+          "correctIndex": 0,
+          "choices": [
+            "字",
+            "文",
+            "纸"
+          ]
+        },
+        {
+          "picture": "📖",
+          "pinyin": "shū",
+          "word": "书",
+          "correctIndex": 1,
+          "choices": [
+            "纸",
+            "书",
+            "字"
+          ]
+        },
+        {
+          "picture": "✏️",
+          "pinyin": "bǐ",
+          "word": "笔",
+          "correctIndex": 1,
+          "choices": [
+            "文",
+            "笔",
+            "书"
+          ]
+        },
+        {
+          "picture": "📄",
+          "pinyin": "zhǐ",
+          "word": "纸",
+          "correctIndex": 0,
+          "choices": [
+            "纸",
+            "笔",
+            "文"
+          ]
+        }
+      ],
+      "theme": "castle",
+      "themeName": "童话城堡",
+      "themeSubtitle": "学习智慧"
+    },
+    {
+      "id": "thinking",
+      "title": "第十四关",
+      "subtitle": "心思意念",
+      "icon": "思",
+      "rounds": [
+        {
+          "picture": "🤔",
+          "pinyin": "sī",
+          "word": "思",
+          "correctIndex": 0,
+          "choices": [
+            "思",
+            "想",
+            "意"
+          ]
+        },
+        {
+          "picture": "💭",
+          "pinyin": "xiǎng",
+          "word": "想",
+          "correctIndex": 0,
+          "choices": [
+            "想",
+            "念",
+            "意"
+          ]
+        },
+        {
+          "picture": "📿",
+          "pinyin": "niàn",
+          "word": "念",
+          "correctIndex": 2,
+          "choices": [
+            "想",
+            "意",
+            "念"
+          ]
+        },
+        {
+          "picture": "🧠",
+          "pinyin": "jì",
+          "word": "记",
+          "correctIndex": 0,
+          "choices": [
+            "记",
+            "意",
+            "想"
+          ]
+        },
+        {
+          "picture": "💡",
+          "pinyin": "yì",
+          "word": "意",
+          "correctIndex": 1,
+          "choices": [
+            "想",
+            "意",
+            "念"
+          ]
+        }
+      ],
+      "theme": "castle",
+      "themeName": "童话城堡",
+      "themeSubtitle": "学习智慧"
+    },
+    {
+      "id": "school",
+      "title": "第十五关",
+      "subtitle": "学习之地",
+      "icon": "学",
+      "rounds": [
+        {
+          "picture": "📚",
+          "pinyin": "xué",
+          "word": "学",
+          "correctIndex": 2,
+          "choices": [
+            "页",
+            "卷",
+            "学"
+          ]
+        },
+        {
+          "picture": "🏫",
+          "pinyin": "xiào",
+          "word": "校",
+          "correctIndex": 2,
+          "choices": [
+            "页",
+            "卷",
+            "校"
+          ]
+        },
+        {
+          "picture": "📕",
+          "pinyin": "běn",
+          "word": "本",
+          "correctIndex": 1,
+          "choices": [
+            "卷",
+            "本",
+            "学"
+          ]
+        },
+        {
+          "picture": "📃",
+          "pinyin": "yè",
+          "word": "页",
+          "correctIndex": 1,
+          "choices": [
+            "学",
+            "页",
+            "校"
+          ]
+        },
+        {
+          "picture": "📜",
+          "pinyin": "juàn",
+          "word": "卷",
+          "correctIndex": 2,
+          "choices": [
+            "页",
+            "本",
+            "卷"
+          ]
+        }
+      ],
+      "theme": "castle",
+      "themeName": "童话城堡",
+      "themeSubtitle": "学习智慧"
+    },
+    {
+      "id": "time-units",
+      "title": "第十六关",
+      "subtitle": "时间时分",
+      "icon": "时",
+      "rounds": [
+        {
+          "picture": "🕐",
+          "pinyin": "shí",
+          "word": "时",
+          "correctIndex": 2,
+          "choices": [
+            "分",
+            "周",
+            "时"
+          ]
+        },
+        {
+          "picture": "⏱️",
+          "pinyin": "fēn",
+          "word": "分",
+          "correctIndex": 2,
+          "choices": [
+            "秒",
+            "周",
+            "分"
+          ]
+        },
+        {
+          "picture": "⏳",
+          "pinyin": "miǎo",
+          "word": "秒",
+          "correctIndex": 0,
+          "choices": [
+            "秒",
+            "点",
+            "分"
+          ]
+        },
+        {
+          "picture": "📍",
+          "pinyin": "diǎn",
+          "word": "点",
+          "correctIndex": 1,
+          "choices": [
+            "周",
+            "点",
+            "分"
+          ]
+        },
+        {
+          "picture": "📅",
+          "pinyin": "zhōu",
+          "word": "周",
+          "correctIndex": 2,
+          "choices": [
+            "秒",
+            "时",
+            "周"
+          ]
+        }
+      ],
+      "theme": "town",
+      "themeName": "小镇广场",
+      "themeSubtitle": "生活日常"
+    },
+    {
+      "id": "stationery",
+      "title": "第十七关",
+      "subtitle": "笔墨纸砚",
+      "icon": "墨",
+      "rounds": [
+        {
+          "picture": "🖌️",
+          "pinyin": "mò",
+          "word": "墨",
+          "correctIndex": 0,
+          "choices": [
+            "墨",
+            "砚",
+            "桌"
+          ]
+        },
+        {
+          "picture": "🖋️",
+          "pinyin": "yàn",
+          "word": "砚",
+          "correctIndex": 2,
+          "choices": [
+            "桌",
+            "椅",
+            "砚"
+          ]
+        },
+        {
+          "picture": "🪑",
+          "pinyin": "zhuō",
+          "word": "桌",
+          "correctIndex": 0,
+          "choices": [
+            "桌",
+            "砚",
+            "椅"
+          ]
+        },
+        {
+          "picture": "🪑",
+          "pinyin": "yǐ",
+          "word": "椅",
+          "correctIndex": 2,
+          "choices": [
+            "砚",
+            "墨",
+            "椅"
+          ]
+        },
+        {
+          "picture": "📏",
+          "pinyin": "chǐ",
+          "word": "尺",
+          "correctIndex": 1,
+          "choices": [
+            "砚",
+            "尺",
+            "椅"
+          ]
+        }
+      ],
+      "theme": "town",
+      "themeName": "小镇广场",
+      "themeSubtitle": "生活日常"
+    },
+    {
+      "id": "house",
+      "title": "第十八关",
+      "subtitle": "房门窗户",
+      "icon": "门",
+      "rounds": [
+        {
+          "picture": "🏠",
+          "pinyin": "fáng",
+          "word": "房",
+          "correctIndex": 0,
+          "choices": [
+            "房",
+            "沙",
+            "门"
+          ]
+        },
+        {
+          "picture": "🚪",
+          "pinyin": "mén",
+          "word": "门",
+          "correctIndex": 0,
+          "choices": [
+            "门",
+            "窗",
+            "房"
+          ]
+        },
+        {
+          "picture": "🪟",
+          "pinyin": "chuāng",
+          "word": "窗",
+          "correctIndex": 0,
+          "choices": [
+            "窗",
+            "门",
+            "房"
+          ]
+        },
+        {
+          "picture": "🏚️",
+          "pinyin": "wū",
+          "word": "屋",
+          "correctIndex": 2,
+          "choices": [
+            "房",
+            "门",
+            "屋"
+          ]
+        },
+        {
+          "picture": "🛋️",
+          "pinyin": "shā",
+          "word": "沙",
+          "correctIndex": 0,
+          "choices": [
+            "沙",
+            "门",
+            "房"
+          ]
+        }
+      ],
+      "theme": "town",
+      "themeName": "小镇广场",
+      "themeSubtitle": "生活日常"
+    },
+    {
+      "id": "clothes",
+      "title": "第十九关",
+      "subtitle": "衣帽鞋袜",
+      "icon": "衣",
+      "rounds": [
+        {
+          "picture": "👕",
+          "pinyin": "yī",
+          "word": "衣",
+          "correctIndex": 0,
+          "choices": [
+            "衣",
+            "裤",
+            "鞋"
+          ]
+        },
+        {
+          "picture": "👖",
+          "pinyin": "kù",
+          "word": "裤",
+          "correctIndex": 0,
+          "choices": [
+            "裤",
+            "帽",
+            "衣"
+          ]
+        },
+        {
+          "picture": "👟",
+          "pinyin": "xié",
+          "word": "鞋",
+          "correctIndex": 0,
+          "choices": [
+            "鞋",
+            "裤",
+            "衣"
+          ]
+        },
+        {
+          "picture": "🎩",
+          "pinyin": "mào",
+          "word": "帽",
+          "correctIndex": 0,
+          "choices": [
+            "帽",
+            "衣",
+            "袜"
+          ]
+        },
+        {
+          "picture": "🧦",
+          "pinyin": "wà",
+          "word": "袜",
+          "correctIndex": 1,
+          "choices": [
+            "裤",
+            "袜",
+            "鞋"
+          ]
+        }
+      ],
+      "theme": "town",
+      "themeName": "小镇广场",
+      "themeSubtitle": "生活日常"
+    },
+    {
+      "id": "food",
+      "title": "第二十关",
+      "subtitle": "米面饭菜",
+      "icon": "米",
+      "rounds": [
+        {
+          "picture": "🍚",
+          "pinyin": "mǐ",
+          "word": "米",
+          "correctIndex": 2,
+          "choices": [
+            "菜",
+            "汤",
+            "米"
+          ]
+        },
+        {
+          "picture": "🍜",
+          "pinyin": "miàn",
+          "word": "面",
+          "correctIndex": 1,
+          "choices": [
+            "汤",
+            "面",
+            "菜"
+          ]
+        },
+        {
+          "picture": "🥩",
+          "pinyin": "ròu",
+          "word": "肉",
+          "correctIndex": 1,
+          "choices": [
+            "菜",
+            "肉",
+            "米"
+          ]
+        },
+        {
+          "picture": "🥬",
+          "pinyin": "cài",
+          "word": "菜",
+          "correctIndex": 1,
+          "choices": [
+            "面",
+            "菜",
+            "肉"
+          ]
+        },
+        {
+          "picture": "🍲",
+          "pinyin": "tāng",
+          "word": "汤",
+          "correctIndex": 2,
+          "choices": [
+            "肉",
+            "面",
+            "汤"
+          ]
+        }
+      ],
+      "theme": "town",
+      "themeName": "小镇广场",
+      "themeSubtitle": "生活日常"
+    },
+    {
+      "id": "fruits",
+      "title": "第二十一关",
+      "subtitle": "桃梨梅杏",
+      "icon": "桃",
+      "rounds": [
+        {
+          "picture": "🍑",
+          "pinyin": "táo",
+          "word": "桃",
+          "correctIndex": 0,
+          "choices": [
+            "桃",
+            "杏",
+            "梨"
+          ]
+        },
+        {
+          "picture": "🍐",
+          "pinyin": "lí",
+          "word": "梨",
+          "correctIndex": 0,
+          "choices": [
+            "梨",
+            "梅",
+            "杏"
+          ]
+        },
+        {
+          "picture": "🌸",
+          "pinyin": "méi",
+          "word": "梅",
+          "correctIndex": 0,
+          "choices": [
+            "梅",
+            "桃",
+            "苹"
+          ]
+        },
+        {
+          "picture": "🌳",
+          "pinyin": "xìng",
+          "word": "杏",
+          "correctIndex": 2,
+          "choices": [
+            "梅",
+            "桃",
+            "杏"
+          ]
+        },
+        {
+          "picture": "🍎",
+          "pinyin": "píng",
+          "word": "苹",
+          "correctIndex": 2,
+          "choices": [
+            "桃",
+            "梅",
+            "苹"
+          ]
+        }
+      ],
+      "theme": "orchard",
+      "themeName": "丰收果园",
+      "themeSubtitle": "食物厨房"
+    },
+    {
+      "id": "vegetables",
+      "title": "第二十二关",
+      "subtitle": "菜蔬瓜茄",
+      "icon": "蔬",
+      "rounds": [
+        {
+          "picture": "🥬",
+          "pinyin": "shū",
+          "word": "蔬",
+          "correctIndex": 2,
+          "choices": [
+            "芥",
+            "萝",
+            "蔬"
+          ]
+        },
+        {
+          "picture": "🥒",
+          "pinyin": "guā",
+          "word": "瓜",
+          "correctIndex": 0,
+          "choices": [
+            "瓜",
+            "芥",
+            "萝"
+          ]
+        },
+        {
+          "picture": "🍆",
+          "pinyin": "qié",
+          "word": "茄",
+          "correctIndex": 2,
+          "choices": [
+            "蔬",
+            "萝",
+            "茄"
+          ]
+        },
+        {
+          "picture": "🥕",
+          "pinyin": "luó",
+          "word": "萝",
+          "correctIndex": 0,
+          "choices": [
+            "萝",
+            "瓜",
+            "蔬"
+          ]
+        },
+        {
+          "picture": "🥦",
+          "pinyin": "jiè",
+          "word": "芥",
+          "correctIndex": 0,
+          "choices": [
+            "芥",
+            "瓜",
+            "茄"
+          ]
+        }
+      ],
+      "theme": "orchard",
+      "themeName": "丰收果园",
+      "themeSubtitle": "食物厨房"
+    },
+    {
+      "id": "drinks",
+      "title": "第二十三关",
+      "subtitle": "茶饮酒盐",
+      "icon": "茶",
+      "rounds": [
+        {
+          "picture": "🍵",
+          "pinyin": "chá",
+          "word": "茶",
+          "correctIndex": 2,
+          "choices": [
+            "酒",
+            "饮",
+            "茶"
+          ]
+        },
+        {
+          "picture": "🥤",
+          "pinyin": "yǐn",
+          "word": "饮",
+          "correctIndex": 2,
+          "choices": [
+            "糖",
+            "茶",
+            "饮"
+          ]
+        },
+        {
+          "picture": "🍶",
+          "pinyin": "jiǔ",
+          "word": "酒",
+          "correctIndex": 1,
+          "choices": [
+            "茶",
+            "酒",
+            "饮"
+          ]
+        },
+        {
+          "picture": "🧂",
+          "pinyin": "yán",
+          "word": "盐",
+          "correctIndex": 2,
+          "choices": [
+            "饮",
+            "酒",
+            "盐"
+          ]
+        },
+        {
+          "picture": "🍬",
+          "pinyin": "táng",
+          "word": "糖",
+          "correctIndex": 2,
+          "choices": [
+            "饮",
+            "盐",
+            "糖"
+          ]
+        }
+      ],
+      "theme": "orchard",
+      "themeName": "丰收果园",
+      "themeSubtitle": "食物厨房"
+    },
+    {
+      "id": "tableware",
+      "title": "第二十四关",
+      "subtitle": "碗盘杯筷",
+      "icon": "碗",
+      "rounds": [
+        {
+          "picture": "🥣",
+          "pinyin": "wǎn",
+          "word": "碗",
+          "correctIndex": 0,
+          "choices": [
+            "碗",
+            "杯",
+            "勺"
+          ]
+        },
+        {
+          "picture": "🍽️",
+          "pinyin": "pán",
+          "word": "盘",
+          "correctIndex": 0,
+          "choices": [
+            "盘",
+            "勺",
+            "碗"
+          ]
+        },
+        {
+          "picture": "🥢",
+          "pinyin": "kuài",
+          "word": "筷",
+          "correctIndex": 2,
+          "choices": [
+            "杯",
+            "碗",
+            "筷"
+          ]
+        },
+        {
+          "picture": "🥄",
+          "pinyin": "sháo",
+          "word": "勺",
+          "correctIndex": 2,
+          "choices": [
+            "盘",
+            "杯",
+            "勺"
+          ]
+        },
+        {
+          "picture": "🥤",
+          "pinyin": "bēi",
+          "word": "杯",
+          "correctIndex": 1,
+          "choices": [
+            "勺",
+            "杯",
+            "盘"
+          ]
+        }
+      ],
+      "theme": "orchard",
+      "themeName": "丰收果园",
+      "themeSubtitle": "食物厨房"
+    },
+    {
+      "id": "seasoning",
+      "title": "第二十五关",
+      "subtitle": "油酱醋麻",
+      "icon": "油",
+      "rounds": [
+        {
+          "picture": "🛢️",
+          "pinyin": "yóu",
+          "word": "油",
+          "correctIndex": 1,
+          "choices": [
+            "麻",
+            "油",
+            "鲜"
+          ]
+        },
+        {
+          "picture": "🫙",
+          "pinyin": "jiàng",
+          "word": "酱",
+          "correctIndex": 1,
+          "choices": [
+            "醋",
+            "酱",
+            "油"
+          ]
+        },
+        {
+          "picture": "🍶",
+          "pinyin": "cù",
+          "word": "醋",
+          "correctIndex": 2,
+          "choices": [
+            "油",
+            "酱",
+            "醋"
+          ]
+        },
+        {
+          "picture": "🌶️",
+          "pinyin": "má",
+          "word": "麻",
+          "correctIndex": 1,
+          "choices": [
+            "酱",
+            "麻",
+            "醋"
+          ]
+        },
+        {
+          "picture": "🍲",
+          "pinyin": "xiān",
+          "word": "鲜",
+          "correctIndex": 2,
+          "choices": [
+            "油",
+            "酱",
+            "鲜"
+          ]
+        }
+      ],
+      "theme": "orchard",
+      "themeName": "丰收果园",
+      "themeSubtitle": "食物厨房"
+    },
+    {
+      "id": "head",
+      "title": "第二十六关",
+      "subtitle": "头眼鼻牙",
+      "icon": "头",
+      "rounds": [
+        {
+          "picture": "🗣️",
+          "pinyin": "tóu",
+          "word": "头",
+          "correctIndex": 2,
+          "choices": [
+            "舌",
+            "鼻",
+            "头"
+          ]
+        },
+        {
+          "picture": "👁️",
+          "pinyin": "yǎn",
+          "word": "眼",
+          "correctIndex": 0,
+          "choices": [
+            "眼",
+            "舌",
+            "鼻"
+          ]
+        },
+        {
+          "picture": "👃",
+          "pinyin": "bí",
+          "word": "鼻",
+          "correctIndex": 2,
+          "choices": [
+            "眼",
+            "舌",
+            "鼻"
+          ]
+        },
+        {
+          "picture": "🦷",
+          "pinyin": "yá",
+          "word": "牙",
+          "correctIndex": 0,
+          "choices": [
+            "牙",
+            "眼",
+            "鼻"
+          ]
+        },
+        {
+          "picture": "👅",
+          "pinyin": "shé",
+          "word": "舌",
+          "correctIndex": 0,
+          "choices": [
+            "舌",
+            "鼻",
+            "头"
+          ]
+        }
+      ],
+      "theme": "rainbow",
+      "themeName": "彩虹乐园",
+      "themeSubtitle": "感官形状"
+    },
+    {
+      "id": "emotion",
+      "title": "第二十七关",
+      "subtitle": "笑哭怒惊",
+      "icon": "笑",
+      "rounds": [
+        {
+          "picture": "😄",
+          "pinyin": "xiào",
+          "word": "笑",
+          "correctIndex": 0,
+          "choices": [
+            "笑",
+            "哭",
+            "惊"
+          ]
+        },
+        {
+          "picture": "😭",
+          "pinyin": "kū",
+          "word": "哭",
+          "correctIndex": 0,
+          "choices": [
+            "哭",
+            "喜",
+            "怒"
+          ]
+        },
+        {
+          "picture": "😡",
+          "pinyin": "nù",
+          "word": "怒",
+          "correctIndex": 2,
+          "choices": [
+            "笑",
+            "惊",
+            "怒"
+          ]
+        },
+        {
+          "picture": "😱",
+          "pinyin": "jīng",
+          "word": "惊",
+          "correctIndex": 2,
+          "choices": [
+            "怒",
+            "笑",
+            "惊"
+          ]
+        },
+        {
+          "picture": "🎉",
+          "pinyin": "xǐ",
+          "word": "喜",
+          "correctIndex": 0,
+          "choices": [
+            "喜",
+            "惊",
+            "笑"
+          ]
+        }
+      ],
+      "theme": "rainbow",
+      "themeName": "彩虹乐园",
+      "themeSubtitle": "感官形状"
+    },
+    {
+      "id": "colors",
+      "title": "第二十八关",
+      "subtitle": "红黄蓝绿紫",
+      "icon": "红",
+      "rounds": [
+        {
+          "picture": "🔴",
+          "pinyin": "hóng",
+          "word": "红",
+          "correctIndex": 1,
+          "choices": [
+            "紫",
+            "红",
+            "蓝"
+          ]
+        },
+        {
+          "picture": "🟡",
+          "pinyin": "huáng",
+          "word": "黄",
+          "correctIndex": 0,
+          "choices": [
+            "黄",
+            "绿",
+            "红"
+          ]
+        },
+        {
+          "picture": "🔵",
+          "pinyin": "lán",
+          "word": "蓝",
+          "correctIndex": 2,
+          "choices": [
+            "红",
+            "绿",
+            "蓝"
+          ]
+        },
+        {
+          "picture": "🟢",
+          "pinyin": "lǜ",
+          "word": "绿",
+          "correctIndex": 0,
+          "choices": [
+            "绿",
+            "红",
+            "蓝"
+          ]
+        },
+        {
+          "picture": "🟣",
+          "pinyin": "zǐ",
+          "word": "紫",
+          "correctIndex": 0,
+          "choices": [
+            "紫",
+            "黄",
+            "红"
+          ]
+        }
+      ],
+      "theme": "rainbow",
+      "themeName": "彩虹乐园",
+      "themeSubtitle": "感官形状"
+    },
+    {
+      "id": "shapes",
+      "title": "第二十九关",
+      "subtitle": "圆方三角",
+      "icon": "圆",
+      "rounds": [
+        {
+          "picture": "⚪",
+          "pinyin": "yuán",
+          "word": "圆",
+          "correctIndex": 0,
+          "choices": [
+            "圆",
+            "角",
+            "方"
+          ]
+        },
+        {
+          "picture": "⬜",
+          "pinyin": "fāng",
+          "word": "方",
+          "correctIndex": 1,
+          "choices": [
+            "角",
+            "方",
+            "短"
+          ]
+        },
+        {
+          "picture": "📐",
+          "pinyin": "jiǎo",
+          "word": "角",
+          "correctIndex": 1,
+          "choices": [
+            "短",
+            "角",
+            "方"
+          ]
+        },
+        {
+          "picture": "📏",
+          "pinyin": "cháng",
+          "word": "长",
+          "correctIndex": 1,
+          "choices": [
+            "角",
+            "长",
+            "圆"
+          ]
+        },
+        {
+          "picture": "📐",
+          "pinyin": "duǎn",
+          "word": "短",
+          "correctIndex": 2,
+          "choices": [
+            "方",
+            "长",
+            "短"
+          ]
+        }
+      ],
+      "theme": "rainbow",
+      "themeName": "彩虹乐园",
+      "themeSubtitle": "感官形状"
+    },
+    {
+      "id": "wild",
+      "title": "第三十关",
+      "subtitle": "狮虎狼熊狐",
+      "icon": "狮",
+      "rounds": [
+        {
+          "picture": "🦁",
+          "pinyin": "shī",
+          "word": "狮",
+          "correctIndex": 2,
+          "choices": [
+            "狼",
+            "狐",
+            "狮"
+          ]
+        },
+        {
+          "picture": "🐯",
+          "pinyin": "hǔ",
+          "word": "虎",
+          "correctIndex": 1,
+          "choices": [
+            "狐",
+            "虎",
+            "狼"
+          ]
+        },
+        {
+          "picture": "🐺",
+          "pinyin": "láng",
+          "word": "狼",
+          "correctIndex": 0,
+          "choices": [
+            "狼",
+            "虎",
+            "熊"
+          ]
+        },
+        {
+          "picture": "🐻",
+          "pinyin": "xióng",
+          "word": "熊",
+          "correctIndex": 2,
+          "choices": [
+            "狮",
+            "狼",
+            "熊"
+          ]
+        },
+        {
+          "picture": "🦊",
+          "pinyin": "hú",
+          "word": "狐",
+          "correctIndex": 1,
+          "choices": [
+            "狼",
+            "狐",
+            "熊"
+          ]
+        }
+      ],
+      "theme": "rainbow",
+      "themeName": "彩虹乐园",
+      "themeSubtitle": "感官形状"
+    },
+    {
+      "id": "pets",
+      "title": "第三十一关",
+      "subtitle": "猫狗兔猪",
+      "icon": "狗",
+      "rounds": [
+        {
+          "picture": "🐕",
+          "pinyin": "gǒu",
+          "word": "狗",
+          "correctIndex": 1,
+          "choices": [
+            "鸡",
+            "狗",
+            "兔"
+          ]
+        },
+        {
+          "picture": "🐰",
+          "pinyin": "tù",
+          "word": "兔",
+          "correctIndex": 1,
+          "choices": [
+            "鸭",
+            "兔",
+            "鸡"
+          ]
+        },
+        {
+          "picture": "🐖",
+          "pinyin": "zhū",
+          "word": "猪",
+          "correctIndex": 1,
+          "choices": [
+            "鸭",
+            "猪",
+            "兔"
+          ]
+        },
+        {
+          "picture": "🐔",
+          "pinyin": "jī",
+          "word": "鸡",
+          "correctIndex": 0,
+          "choices": [
+            "鸡",
+            "猪",
+            "狗"
+          ]
+        },
+        {
+          "picture": "🦆",
+          "pinyin": "yā",
+          "word": "鸭",
+          "correctIndex": 1,
+          "choices": [
+            "兔",
+            "鸭",
+            "狗"
+          ]
+        }
+      ],
+      "theme": "ocean",
+      "themeName": "海底世界",
+      "themeSubtitle": "动物植物"
+    },
+    {
+      "id": "birds",
+      "title": "第三十二关",
+      "subtitle": "鹅鸽燕雀",
+      "icon": "鹅",
+      "rounds": [
+        {
+          "picture": "🦢",
+          "pinyin": "é",
+          "word": "鹅",
+          "correctIndex": 2,
+          "choices": [
+            "鹰",
+            "鸽",
+            "鹅"
+          ]
+        },
+        {
+          "picture": "🕊️",
+          "pinyin": "gē",
+          "word": "鸽",
+          "correctIndex": 1,
+          "choices": [
+            "鹰",
+            "鸽",
+            "雀"
+          ]
+        },
+        {
+          "picture": "🕊️",
+          "pinyin": "yàn",
+          "word": "燕",
+          "correctIndex": 0,
+          "choices": [
+            "燕",
+            "鹰",
+            "雀"
+          ]
+        },
+        {
+          "picture": "🐦",
+          "pinyin": "què",
+          "word": "雀",
+          "correctIndex": 0,
+          "choices": [
+            "雀",
+            "鹰",
+            "鸽"
+          ]
+        },
+        {
+          "picture": "🦅",
+          "pinyin": "yīng",
+          "word": "鹰",
+          "correctIndex": 2,
+          "choices": [
+            "鸽",
+            "燕",
+            "鹰"
+          ]
+        }
+      ],
+      "theme": "ocean",
+      "themeName": "海底世界",
+      "themeSubtitle": "动物植物"
+    },
+    {
+      "id": "insects",
+      "title": "第三十三关",
+      "subtitle": "蚂蚁蝴蝶",
+      "icon": "蚂",
+      "rounds": [
+        {
+          "picture": "🐜",
+          "pinyin": "mǎ",
+          "word": "蚂",
+          "correctIndex": 1,
+          "choices": [
+            "蝴",
+            "蚂",
+            "蝶"
+          ]
+        },
+        {
+          "picture": "🐜",
+          "pinyin": "yǐ",
+          "word": "蚁",
+          "correctIndex": 1,
+          "choices": [
+            "蜂",
+            "蚁",
+            "蝴"
+          ]
+        },
+        {
+          "picture": "🦋",
+          "pinyin": "hú",
+          "word": "蝴",
+          "correctIndex": 2,
+          "choices": [
+            "蚂",
+            "蚁",
+            "蝴"
+          ]
+        },
+        {
+          "picture": "🦋",
+          "pinyin": "dié",
+          "word": "蝶",
+          "correctIndex": 0,
+          "choices": [
+            "蝶",
+            "蚂",
+            "蚁"
+          ]
+        },
+        {
+          "picture": "🐝",
+          "pinyin": "fēng",
+          "word": "蜂",
+          "correctIndex": 2,
+          "choices": [
+            "蚂",
+            "蚁",
+            "蜂"
+          ]
+        }
+      ],
+      "theme": "ocean",
+      "themeName": "海底世界",
+      "themeSubtitle": "动物植物"
+    },
+    {
+      "id": "aquatic",
+      "title": "第三十四关",
+      "subtitle": "鱼虾蟹贝螺",
+      "icon": "虾",
+      "rounds": [
+        {
+          "picture": "🐟",
+          "pinyin": "yú",
+          "word": "鱼",
+          "correctIndex": 0,
+          "choices": [
+            "鱼",
+            "螺",
+            "贝"
+          ]
+        },
+        {
+          "picture": "🦐",
+          "pinyin": "xiā",
+          "word": "虾",
+          "correctIndex": 1,
+          "choices": [
+            "蟹",
+            "虾",
+            "贝"
+          ]
+        },
+        {
+          "picture": "🦀",
+          "pinyin": "xiè",
+          "word": "蟹",
+          "correctIndex": 2,
+          "choices": [
+            "鱼",
+            "虾",
+            "蟹"
+          ]
+        },
+        {
+          "picture": "🐚",
+          "pinyin": "bèi",
+          "word": "贝",
+          "correctIndex": 0,
+          "choices": [
+            "贝",
+            "蟹",
+            "鱼"
+          ]
+        },
+        {
+          "picture": "🐌",
+          "pinyin": "luó",
+          "word": "螺",
+          "correctIndex": 0,
+          "choices": [
+            "螺",
+            "虾",
+            "蟹"
+          ]
+        }
+      ],
+      "theme": "ocean",
+      "themeName": "海底世界",
+      "themeSubtitle": "动物植物"
+    },
+    {
+      "id": "trees",
+      "title": "第三十五关",
+      "subtitle": "树木森林",
+      "icon": "树",
+      "rounds": [
+        {
+          "picture": "🌲",
+          "pinyin": "shù",
+          "word": "树",
+          "correctIndex": 2,
+          "choices": [
+            "林",
+            "柱",
+            "树"
+          ]
+        },
+        {
+          "picture": "🌳",
+          "pinyin": "lín",
+          "word": "林",
+          "correctIndex": 0,
+          "choices": [
+            "林",
+            "森",
+            "树"
+          ]
+        },
+        {
+          "picture": "🌲",
+          "pinyin": "sēn",
+          "word": "森",
+          "correctIndex": 0,
+          "choices": [
+            "森",
+            "柱",
+            "枝"
+          ]
+        },
+        {
+          "picture": "🌿",
+          "pinyin": "zhī",
+          "word": "枝",
+          "correctIndex": 1,
+          "choices": [
+            "柱",
+            "枝",
+            "林"
+          ]
+        },
+        {
+          "picture": "🪵",
+          "pinyin": "zhù",
+          "word": "柱",
+          "correctIndex": 2,
+          "choices": [
+            "树",
+            "森",
+            "柱"
+          ]
+        }
+      ],
+      "theme": "ocean",
+      "themeName": "海底世界",
+      "themeSubtitle": "动物植物"
+    },
+    {
+      "id": "flowers",
+      "title": "第三十六关",
+      "subtitle": "花草叶根",
+      "icon": "花",
+      "rounds": [
+        {
+          "picture": "🌸",
+          "pinyin": "huā",
+          "word": "花",
+          "correctIndex": 1,
+          "choices": [
+            "叶",
+            "花",
+            "草"
+          ]
+        },
+        {
+          "picture": "🌱",
+          "pinyin": "cǎo",
+          "word": "草",
+          "correctIndex": 0,
+          "choices": [
+            "草",
+            "花",
+            "叶"
+          ]
+        },
+        {
+          "picture": "🍃",
+          "pinyin": "yè",
+          "word": "叶",
+          "correctIndex": 1,
+          "choices": [
+            "草",
+            "叶",
+            "茎"
+          ]
+        },
+        {
+          "picture": "🌾",
+          "pinyin": "jīng",
+          "word": "茎",
+          "correctIndex": 0,
+          "choices": [
+            "茎",
+            "叶",
+            "花"
+          ]
+        },
+        {
+          "picture": "🌱",
+          "pinyin": "gēn",
+          "word": "根",
+          "correctIndex": 2,
+          "choices": [
+            "草",
+            "叶",
+            "根"
+          ]
+        }
+      ],
+      "theme": "sakura",
+      "themeName": "樱花林",
+      "themeSubtitle": "自然地理"
+    },
+    {
+      "id": "seasons",
+      "title": "第三十七关",
+      "subtitle": "春夏冬霜季",
+      "icon": "春",
+      "rounds": [
+        {
+          "picture": "🌱",
+          "pinyin": "chūn",
+          "word": "春",
+          "correctIndex": 0,
+          "choices": [
+            "春",
+            "夏",
+            "霜"
+          ]
+        },
+        {
+          "picture": "☀️",
+          "pinyin": "xià",
+          "word": "夏",
+          "correctIndex": 2,
+          "choices": [
+            "霜",
+            "春",
+            "夏"
+          ]
+        },
+        {
+          "picture": "❄️",
+          "pinyin": "dōng",
+          "word": "冬",
+          "correctIndex": 1,
+          "choices": [
+            "霜",
+            "冬",
+            "春"
+          ]
+        },
+        {
+          "picture": "❄️",
+          "pinyin": "shuāng",
+          "word": "霜",
+          "correctIndex": 0,
+          "choices": [
+            "霜",
+            "冬",
+            "季"
+          ]
+        },
+        {
+          "picture": "📅",
+          "pinyin": "jì",
+          "word": "季",
+          "correctIndex": 0,
+          "choices": [
+            "季",
+            "霜",
+            "冬"
+          ]
+        }
+      ],
+      "theme": "sakura",
+      "themeName": "樱花林",
+      "themeSubtitle": "自然地理"
+    },
+    {
+      "id": "temperature",
+      "title": "第三十八关",
+      "subtitle": "晴雾暖寒",
+      "icon": "晴",
+      "rounds": [
+        {
+          "picture": "☀️",
+          "pinyin": "qíng",
+          "word": "晴",
+          "correctIndex": 0,
+          "choices": [
+            "晴",
+            "寒",
+            "雾"
+          ]
+        },
+        {
+          "picture": "🌫️",
+          "pinyin": "wù",
+          "word": "雾",
+          "correctIndex": 1,
+          "choices": [
+            "寒",
+            "雾",
+            "晴"
+          ]
+        },
+        {
+          "picture": "🌤️",
+          "pinyin": "nuǎn",
+          "word": "暖",
+          "correctIndex": 2,
+          "choices": [
+            "雾",
+            "寒",
+            "暖"
+          ]
+        },
+        {
+          "picture": "🥶",
+          "pinyin": "hán",
+          "word": "寒",
+          "correctIndex": 2,
+          "choices": [
+            "晴",
+            "雾",
+            "寒"
+          ]
+        },
+        {
+          "picture": "🌬️",
+          "pinyin": "liáng",
+          "word": "凉",
+          "correctIndex": 0,
+          "choices": [
+            "凉",
+            "雾",
+            "暖"
+          ]
+        }
+      ],
+      "theme": "sakura",
+      "themeName": "樱花林",
+      "themeSubtitle": "自然地理"
+    },
+    {
+      "id": "geography",
+      "title": "第三十九关",
+      "subtitle": "江海河湖泉",
+      "icon": "江",
+      "rounds": [
+        {
+          "picture": "🏞️",
+          "pinyin": "jiāng",
+          "word": "江",
+          "correctIndex": 0,
+          "choices": [
+            "江",
+            "湖",
+            "泉"
+          ]
+        },
+        {
+          "picture": "🏞️",
+          "pinyin": "hé",
+          "word": "河",
+          "correctIndex": 2,
+          "choices": [
+            "海",
+            "泉",
+            "河"
+          ]
+        },
+        {
+          "picture": "🌊",
+          "pinyin": "hǎi",
+          "word": "海",
+          "correctIndex": 0,
+          "choices": [
+            "海",
+            "湖",
+            "泉"
+          ]
+        },
+        {
+          "picture": "🏞️",
+          "pinyin": "hú",
+          "word": "湖",
+          "correctIndex": 0,
+          "choices": [
+            "湖",
+            "海",
+            "泉"
+          ]
+        },
+        {
+          "picture": "⛲",
+          "pinyin": "quán",
+          "word": "泉",
+          "correctIndex": 2,
+          "choices": [
+            "湖",
+            "河",
+            "泉"
+          ]
+        }
+      ],
+      "theme": "sakura",
+      "themeName": "樱花林",
+      "themeSubtitle": "自然地理"
+    },
+    {
+      "id": "directions2",
+      "title": "第四十关",
+      "subtitle": "东南西北",
+      "icon": "东",
+      "rounds": [
+        {
+          "picture": "➡️",
+          "pinyin": "dōng",
+          "word": "东",
+          "correctIndex": 2,
+          "choices": [
+            "左",
+            "南",
+            "东"
+          ]
+        },
+        {
+          "picture": "⬇️",
+          "pinyin": "nán",
+          "word": "南",
+          "correctIndex": 0,
+          "choices": [
+            "南",
+            "北",
+            "左"
+          ]
+        },
+        {
+          "picture": "⬅️",
+          "pinyin": "xī",
+          "word": "西",
+          "correctIndex": 2,
+          "choices": [
+            "南",
+            "北",
+            "西"
+          ]
+        },
+        {
+          "picture": "⬆️",
+          "pinyin": "běi",
+          "word": "北",
+          "correctIndex": 1,
+          "choices": [
+            "左",
+            "北",
+            "东"
+          ]
+        },
+        {
+          "picture": "👈",
+          "pinyin": "zuǒ",
+          "word": "左",
+          "correctIndex": 1,
+          "choices": [
+            "东",
+            "左",
+            "南"
+          ]
+        }
+      ],
+      "theme": "sakura",
+      "themeName": "樱花林",
+      "themeSubtitle": "自然地理"
+    },
+    {
+      "id": "time2",
+      "title": "第四十一关",
+      "subtitle": "早晚晨夜",
+      "icon": "早",
+      "rounds": [
+        {
+          "picture": "🌅",
+          "pinyin": "zǎo",
+          "word": "早",
+          "correctIndex": 1,
+          "choices": [
+            "昼",
+            "早",
+            "晨"
+          ]
+        },
+        {
+          "picture": "🌆",
+          "pinyin": "wǎn",
+          "word": "晚",
+          "correctIndex": 2,
+          "choices": [
+            "早",
+            "晨",
+            "晚"
+          ]
+        },
+        {
+          "picture": "🌄",
+          "pinyin": "chén",
+          "word": "晨",
+          "correctIndex": 1,
+          "choices": [
+            "早",
+            "晨",
+            "昼"
+          ]
+        },
+        {
+          "picture": "🌃",
+          "pinyin": "yè",
+          "word": "夜",
+          "correctIndex": 2,
+          "choices": [
+            "早",
+            "晨",
+            "夜"
+          ]
+        },
+        {
+          "picture": "☀️",
+          "pinyin": "zhòu",
+          "word": "昼",
+          "correctIndex": 0,
+          "choices": [
+            "昼",
+            "早",
+            "晚"
+          ]
+        }
+      ],
+      "theme": "snow",
+      "themeName": "雪地冬景",
+      "themeSubtitle": "时间动作"
+    },
+    {
+      "id": "verbs1",
+      "title": "第四十二关",
+      "subtitle": "来去走跑跳",
+      "icon": "来",
+      "rounds": [
+        {
+          "picture": "➡️",
+          "pinyin": "lái",
+          "word": "来",
+          "correctIndex": 2,
+          "choices": [
+            "跳",
+            "去",
+            "来"
+          ]
+        },
+        {
+          "picture": "⬅️",
+          "pinyin": "qù",
+          "word": "去",
+          "correctIndex": 0,
+          "choices": [
+            "去",
+            "跑",
+            "走"
+          ]
+        },
+        {
+          "picture": "🚶",
+          "pinyin": "zǒu",
+          "word": "走",
+          "correctIndex": 2,
+          "choices": [
+            "去",
+            "来",
+            "走"
+          ]
+        },
+        {
+          "picture": "🏃",
+          "pinyin": "pǎo",
+          "word": "跑",
+          "correctIndex": 0,
+          "choices": [
+            "跑",
+            "去",
+            "跳"
+          ]
+        },
+        {
+          "picture": "🦘",
+          "pinyin": "tiào",
+          "word": "跳",
+          "correctIndex": 1,
+          "choices": [
+            "去",
+            "跳",
+            "跑"
+          ]
+        }
+      ],
+      "theme": "snow",
+      "themeName": "雪地冬景",
+      "themeSubtitle": "时间动作"
+    },
+    {
+      "id": "verbs2",
+      "title": "第四十三关",
+      "subtitle": "坐站蹲跪",
+      "icon": "坐",
+      "rounds": [
+        {
+          "picture": "🪑",
+          "pinyin": "zuò",
+          "word": "坐",
+          "correctIndex": 1,
+          "choices": [
+            "蹲",
+            "坐",
+            "站"
+          ]
+        },
+        {
+          "picture": "🧍",
+          "pinyin": "zhàn",
+          "word": "站",
+          "correctIndex": 2,
+          "choices": [
+            "伏",
+            "跪",
+            "站"
+          ]
+        },
+        {
+          "picture": "🧎",
+          "pinyin": "dūn",
+          "word": "蹲",
+          "correctIndex": 0,
+          "choices": [
+            "蹲",
+            "跪",
+            "伏"
+          ]
+        },
+        {
+          "picture": "🙇",
+          "pinyin": "fú",
+          "word": "伏",
+          "correctIndex": 0,
+          "choices": [
+            "伏",
+            "跪",
+            "蹲"
+          ]
+        },
+        {
+          "picture": "🧎",
+          "pinyin": "guì",
+          "word": "跪",
+          "correctIndex": 0,
+          "choices": [
+            "跪",
+            "站",
+            "伏"
+          ]
+        }
+      ],
+      "theme": "snow",
+      "themeName": "雪地冬景",
+      "themeSubtitle": "时间动作"
+    },
+    {
+      "id": "verbs3",
+      "title": "第四十四关",
+      "subtitle": "拿放提推拉",
+      "icon": "拿",
+      "rounds": [
+        {
+          "picture": "🤲",
+          "pinyin": "ná",
+          "word": "拿",
+          "correctIndex": 1,
+          "choices": [
+            "提",
+            "拿",
+            "拉"
+          ]
+        },
+        {
+          "picture": "📥",
+          "pinyin": "fàng",
+          "word": "放",
+          "correctIndex": 0,
+          "choices": [
+            "放",
+            "拿",
+            "拉"
+          ]
+        },
+        {
+          "picture": "🛍️",
+          "pinyin": "tí",
+          "word": "提",
+          "correctIndex": 2,
+          "choices": [
+            "推",
+            "拉",
+            "提"
+          ]
+        },
+        {
+          "picture": "👉",
+          "pinyin": "tuī",
+          "word": "推",
+          "correctIndex": 0,
+          "choices": [
+            "推",
+            "拿",
+            "提"
+          ]
+        },
+        {
+          "picture": "🤏",
+          "pinyin": "lā",
+          "word": "拉",
+          "correctIndex": 2,
+          "choices": [
+            "放",
+            "推",
+            "拉"
+          ]
+        }
+      ],
+      "theme": "snow",
+      "themeName": "雪地冬景",
+      "themeSubtitle": "时间动作"
+    },
+    {
+      "id": "verbs4",
+      "title": "第四十五关",
+      "subtitle": "看听说读写",
+      "icon": "看",
+      "rounds": [
+        {
+          "picture": "👀",
+          "pinyin": "kàn",
+          "word": "看",
+          "correctIndex": 1,
+          "choices": [
+            "说",
+            "看",
+            "听"
+          ]
+        },
+        {
+          "picture": "👂",
+          "pinyin": "tīng",
+          "word": "听",
+          "correctIndex": 0,
+          "choices": [
+            "听",
+            "看",
+            "说"
+          ]
+        },
+        {
+          "picture": "💬",
+          "pinyin": "shuō",
+          "word": "说",
+          "correctIndex": 2,
+          "choices": [
+            "读",
+            "听",
+            "说"
+          ]
+        },
+        {
+          "picture": "📖",
+          "pinyin": "dú",
+          "word": "读",
+          "correctIndex": 1,
+          "choices": [
+            "说",
+            "读",
+            "听"
+          ]
+        },
+        {
+          "picture": "✍️",
+          "pinyin": "xiě",
+          "word": "写",
+          "correctIndex": 0,
+          "choices": [
+            "写",
+            "看",
+            "说"
+          ]
+        }
+      ],
+      "theme": "snow",
+      "themeName": "雪地冬景",
+      "themeSubtitle": "时间动作"
+    },
+    {
+      "id": "verbs5",
+      "title": "第四十六关",
+      "subtitle": "吃喝咬嚼吞",
+      "icon": "吃",
+      "rounds": [
+        {
+          "picture": "🍽️",
+          "pinyin": "chī",
+          "word": "吃",
+          "correctIndex": 0,
+          "choices": [
+            "吃",
+            "喝",
+            "嚼"
+          ]
+        },
+        {
+          "picture": "🥤",
+          "pinyin": "hē",
+          "word": "喝",
+          "correctIndex": 2,
+          "choices": [
+            "咬",
+            "吞",
+            "喝"
+          ]
+        },
+        {
+          "picture": "🦷",
+          "pinyin": "yǎo",
+          "word": "咬",
+          "correctIndex": 2,
+          "choices": [
+            "喝",
+            "嚼",
+            "咬"
+          ]
+        },
+        {
+          "picture": "😋",
+          "pinyin": "jiáo",
+          "word": "嚼",
+          "correctIndex": 2,
+          "choices": [
+            "吞",
+            "喝",
+            "嚼"
+          ]
+        },
+        {
+          "picture": "😋",
+          "pinyin": "tūn",
+          "word": "吞",
+          "correctIndex": 1,
+          "choices": [
+            "咬",
+            "吞",
+            "嚼"
+          ]
+        }
+      ],
+      "theme": "beach",
+      "themeName": "沙滩海岸",
+      "themeSubtitle": "形容描述"
+    },
+    {
+      "id": "verbs6",
+      "title": "第四十七关",
+      "subtitle": "叫喊唱叹",
+      "icon": "叫",
+      "rounds": [
+        {
+          "picture": "📢",
+          "pinyin": "jiào",
+          "word": "叫",
+          "correctIndex": 1,
+          "choices": [
+            "唱",
+            "叫",
+            "叹"
+          ]
+        },
+        {
+          "picture": "🗣️",
+          "pinyin": "hǎn",
+          "word": "喊",
+          "correctIndex": 1,
+          "choices": [
+            "气",
+            "喊",
+            "叹"
+          ]
+        },
+        {
+          "picture": "🎤",
+          "pinyin": "chàng",
+          "word": "唱",
+          "correctIndex": 1,
+          "choices": [
+            "叹",
+            "唱",
+            "叫"
+          ]
+        },
+        {
+          "picture": "😮",
+          "pinyin": "tàn",
+          "word": "叹",
+          "correctIndex": 0,
+          "choices": [
+            "叹",
+            "喊",
+            "气"
+          ]
+        },
+        {
+          "picture": "😤",
+          "pinyin": "qì",
+          "word": "气",
+          "correctIndex": 1,
+          "choices": [
+            "唱",
+            "气",
+            "叹"
+          ]
+        }
+      ],
+      "theme": "beach",
+      "themeName": "沙滩海岸",
+      "themeSubtitle": "形容描述"
+    },
+    {
+      "id": "verbs7",
+      "title": "第四十八关",
+      "subtitle": "教练习问背",
+      "icon": "教",
+      "rounds": [
+        {
+          "picture": "👩‍🏫",
+          "pinyin": "jiāo",
+          "word": "教",
+          "correctIndex": 1,
+          "choices": [
+            "习",
+            "教",
+            "背"
+          ]
+        },
+        {
+          "picture": "🏋️",
+          "pinyin": "liàn",
+          "word": "练",
+          "correctIndex": 0,
+          "choices": [
+            "练",
+            "习",
+            "背"
+          ]
+        },
+        {
+          "picture": "📖",
+          "pinyin": "xí",
+          "word": "习",
+          "correctIndex": 0,
+          "choices": [
+            "习",
+            "背",
+            "练"
+          ]
+        },
+        {
+          "picture": "❓",
+          "pinyin": "wèn",
+          "word": "问",
+          "correctIndex": 2,
+          "choices": [
+            "练",
+            "教",
+            "问"
+          ]
+        },
+        {
+          "picture": "📖",
+          "pinyin": "bèi",
+          "word": "背",
+          "correctIndex": 2,
+          "choices": [
+            "问",
+            "练",
+            "背"
+          ]
+        }
+      ],
+      "theme": "beach",
+      "themeName": "沙滩海岸",
+      "themeSubtitle": "形容描述"
+    },
+    {
+      "id": "adj1",
+      "title": "第四十九关",
+      "subtitle": "高矮胖瘦美",
+      "icon": "高",
+      "rounds": [
+        {
+          "picture": "📏",
+          "pinyin": "gāo",
+          "word": "高",
+          "correctIndex": 2,
+          "choices": [
+            "美",
+            "瘦",
+            "高"
+          ]
+        },
+        {
+          "picture": "📏",
+          "pinyin": "ǎi",
+          "word": "矮",
+          "correctIndex": 1,
+          "choices": [
+            "胖",
+            "矮",
+            "高"
+          ]
+        },
+        {
+          "picture": "🐷",
+          "pinyin": "pàng",
+          "word": "胖",
+          "correctIndex": 1,
+          "choices": [
+            "高",
+            "胖",
+            "矮"
+          ]
+        },
+        {
+          "picture": "🦴",
+          "pinyin": "shòu",
+          "word": "瘦",
+          "correctIndex": 0,
+          "choices": [
+            "瘦",
+            "矮",
+            "高"
+          ]
+        },
+        {
+          "picture": "🌸",
+          "pinyin": "měi",
+          "word": "美",
+          "correctIndex": 1,
+          "choices": [
+            "矮",
+            "美",
+            "高"
+          ]
+        }
+      ],
+      "theme": "beach",
+      "themeName": "沙滩海岸",
+      "themeSubtitle": "形容描述"
+    },
+    {
+      "id": "adj2",
+      "title": "第五十关",
+      "subtitle": "好坏新旧老",
+      "icon": "好",
+      "rounds": [
+        {
+          "picture": "👍",
+          "pinyin": "hǎo",
+          "word": "好",
+          "correctIndex": 2,
+          "choices": [
+            "旧",
+            "坏",
+            "好"
+          ]
+        },
+        {
+          "picture": "👎",
+          "pinyin": "huài",
+          "word": "坏",
+          "correctIndex": 2,
+          "choices": [
+            "好",
+            "老",
+            "坏"
+          ]
+        },
+        {
+          "picture": "✨",
+          "pinyin": "xīn",
+          "word": "新",
+          "correctIndex": 0,
+          "choices": [
+            "新",
+            "好",
+            "老"
+          ]
+        },
+        {
+          "picture": "🕰️",
+          "pinyin": "jiù",
+          "word": "旧",
+          "correctIndex": 1,
+          "choices": [
+            "坏",
+            "旧",
+            "老"
+          ]
+        },
+        {
+          "picture": "👴",
+          "pinyin": "lǎo",
+          "word": "老",
+          "correctIndex": 2,
+          "choices": [
+            "坏",
+            "新",
+            "老"
+          ]
+        }
+      ],
+      "theme": "beach",
+      "themeName": "沙滩海岸",
+      "themeSubtitle": "形容描述"
+    },
+    {
+      "id": "adj3",
+      "title": "第五十一关",
+      "subtitle": "冷热干湿潮",
+      "icon": "冷",
+      "rounds": [
+        {
+          "picture": "🥶",
+          "pinyin": "lěng",
+          "word": "冷",
+          "correctIndex": 0,
+          "choices": [
+            "冷",
+            "潮",
+            "热"
+          ]
+        },
+        {
+          "picture": "🥵",
+          "pinyin": "rè",
+          "word": "热",
+          "correctIndex": 0,
+          "choices": [
+            "热",
+            "潮",
+            "湿"
+          ]
+        },
+        {
+          "picture": "🏜️",
+          "pinyin": "gān",
+          "word": "干",
+          "correctIndex": 2,
+          "choices": [
+            "潮",
+            "湿",
+            "干"
+          ]
+        },
+        {
+          "picture": "💦",
+          "pinyin": "shī",
+          "word": "湿",
+          "correctIndex": 1,
+          "choices": [
+            "潮",
+            "湿",
+            "干"
+          ]
+        },
+        {
+          "picture": "🌫️",
+          "pinyin": "cháo",
+          "word": "潮",
+          "correctIndex": 2,
+          "choices": [
+            "热",
+            "冷",
+            "潮"
+          ]
+        }
+      ],
+      "theme": "iceberg",
+      "themeName": "极地冰原",
+      "themeSubtitle": "数字量度"
+    },
+    {
+      "id": "adj4",
+      "title": "第五十二关",
+      "subtitle": "甜酸苦辣咸",
+      "icon": "甜",
+      "rounds": [
+        {
+          "picture": "🍬",
+          "pinyin": "tián",
+          "word": "甜",
+          "correctIndex": 0,
+          "choices": [
+            "甜",
+            "辣",
+            "酸"
+          ]
+        },
+        {
+          "picture": "🍋",
+          "pinyin": "suān",
+          "word": "酸",
+          "correctIndex": 0,
+          "choices": [
+            "酸",
+            "辣",
+            "苦"
+          ]
+        },
+        {
+          "picture": "🥒",
+          "pinyin": "kǔ",
+          "word": "苦",
+          "correctIndex": 1,
+          "choices": [
+            "甜",
+            "苦",
+            "咸"
+          ]
+        },
+        {
+          "picture": "🌶️",
+          "pinyin": "là",
+          "word": "辣",
+          "correctIndex": 1,
+          "choices": [
+            "酸",
+            "辣",
+            "苦"
+          ]
+        },
+        {
+          "picture": "🧂",
+          "pinyin": "xián",
+          "word": "咸",
+          "correctIndex": 0,
+          "choices": [
+            "咸",
+            "辣",
+            "酸"
+          ]
+        }
+      ],
+      "theme": "iceberg",
+      "themeName": "极地冰原",
+      "themeSubtitle": "数字量度"
+    },
+    {
+      "id": "adj5",
+      "title": "第五十三关",
+      "subtitle": "快慢远近深",
+      "icon": "快",
+      "rounds": [
+        {
+          "picture": "💨",
+          "pinyin": "kuài",
+          "word": "快",
+          "correctIndex": 0,
+          "choices": [
+            "快",
+            "慢",
+            "近"
+          ]
+        },
+        {
+          "picture": "🐌",
+          "pinyin": "màn",
+          "word": "慢",
+          "correctIndex": 1,
+          "choices": [
+            "快",
+            "慢",
+            "远"
+          ]
+        },
+        {
+          "picture": "🔭",
+          "pinyin": "yuǎn",
+          "word": "远",
+          "correctIndex": 1,
+          "choices": [
+            "深",
+            "远",
+            "快"
+          ]
+        },
+        {
+          "picture": "📍",
+          "pinyin": "jìn",
+          "word": "近",
+          "correctIndex": 0,
+          "choices": [
+            "近",
+            "深",
+            "快"
+          ]
+        },
+        {
+          "picture": "🕳️",
+          "pinyin": "shēn",
+          "word": "深",
+          "correctIndex": 1,
+          "choices": [
+            "远",
+            "深",
+            "快"
+          ]
+        }
+      ],
+      "theme": "iceberg",
+      "themeName": "极地冰原",
+      "themeSubtitle": "数字量度"
+    },
+    {
+      "id": "adj6",
+      "title": "第五十四关",
+      "subtitle": "迟急缓忙",
+      "icon": "迟",
+      "rounds": [
+        {
+          "picture": "⏰",
+          "pinyin": "chí",
+          "word": "迟",
+          "correctIndex": 0,
+          "choices": [
+            "迟",
+            "急",
+            "闲"
+          ]
+        },
+        {
+          "picture": "⏰",
+          "pinyin": "jí",
+          "word": "急",
+          "correctIndex": 2,
+          "choices": [
+            "缓",
+            "闲",
+            "急"
+          ]
+        },
+        {
+          "picture": "🐌",
+          "pinyin": "huǎn",
+          "word": "缓",
+          "correctIndex": 1,
+          "choices": [
+            "急",
+            "缓",
+            "忙"
+          ]
+        },
+        {
+          "picture": "🏃",
+          "pinyin": "máng",
+          "word": "忙",
+          "correctIndex": 1,
+          "choices": [
+            "闲",
+            "忙",
+            "迟"
+          ]
+        },
+        {
+          "picture": "😌",
+          "pinyin": "xián",
+          "word": "闲",
+          "correctIndex": 1,
+          "choices": [
+            "急",
+            "闲",
+            "迟"
+          ]
+        }
+      ],
+      "theme": "iceberg",
+      "themeName": "极地冰原",
+      "themeSubtitle": "数字量度"
+    },
+    {
+      "id": "big-numbers",
+      "title": "第五十五关",
+      "subtitle": "百千万亿零",
+      "icon": "百",
+      "rounds": [
+        {
+          "picture": "💯",
+          "pinyin": "bǎi",
+          "word": "百",
+          "correctIndex": 0,
+          "choices": [
+            "百",
+            "万",
+            "千"
+          ]
+        },
+        {
+          "picture": "🏔️",
+          "pinyin": "qiān",
+          "word": "千",
+          "correctIndex": 2,
+          "choices": [
+            "亿",
+            "零",
+            "千"
+          ]
+        },
+        {
+          "picture": "🌌",
+          "pinyin": "wàn",
+          "word": "万",
+          "correctIndex": 0,
+          "choices": [
+            "万",
+            "亿",
+            "千"
+          ]
+        },
+        {
+          "picture": "💰",
+          "pinyin": "yì",
+          "word": "亿",
+          "correctIndex": 2,
+          "choices": [
+            "百",
+            "千",
+            "亿"
+          ]
+        },
+        {
+          "picture": "0️⃣",
+          "pinyin": "líng",
+          "word": "零",
+          "correctIndex": 2,
+          "choices": [
+            "千",
+            "万",
+            "零"
+          ]
+        }
+      ],
+      "theme": "iceberg",
+      "themeName": "极地冰原",
+      "themeSubtitle": "数字量度"
+    },
+    {
+      "id": "measure1",
+      "title": "第五十六关",
+      "subtitle": "量词一",
+      "icon": "个",
+      "rounds": [
+        {
+          "picture": "1️⃣",
+          "pinyin": "gè",
+          "word": "个",
+          "correctIndex": 1,
+          "choices": [
+            "条",
+            "个",
+            "块"
+          ]
+        },
+        {
+          "picture": "🐕",
+          "pinyin": "zhī",
+          "word": "只",
+          "correctIndex": 1,
+          "choices": [
+            "个",
+            "只",
+            "条"
+          ]
+        },
+        {
+          "picture": "🐛",
+          "pinyin": "tiáo",
+          "word": "条",
+          "correctIndex": 2,
+          "choices": [
+            "张",
+            "个",
+            "条"
+          ]
+        },
+        {
+          "picture": "📄",
+          "pinyin": "zhāng",
+          "word": "张",
+          "correctIndex": 1,
+          "choices": [
+            "块",
+            "张",
+            "条"
+          ]
+        },
+        {
+          "picture": "🧱",
+          "pinyin": "kuài",
+          "word": "块",
+          "correctIndex": 1,
+          "choices": [
+            "个",
+            "块",
+            "张"
+          ]
+        }
+      ],
+      "theme": "space",
+      "themeName": "太空探险",
+      "themeSubtitle": "词语法则"
+    },
+    {
+      "id": "measure2",
+      "title": "第五十七关",
+      "subtitle": "量词二",
+      "icon": "双",
+      "rounds": [
+        {
+          "picture": "👯",
+          "pinyin": "shuāng",
+          "word": "双",
+          "correctIndex": 1,
+          "choices": [
+            "副",
+            "双",
+            "堆"
+          ]
+        },
+        {
+          "picture": "🎴",
+          "pinyin": "fù",
+          "word": "副",
+          "correctIndex": 0,
+          "choices": [
+            "副",
+            "群",
+            "堆"
+          ]
+        },
+        {
+          "picture": "🐑",
+          "pinyin": "qún",
+          "word": "群",
+          "correctIndex": 2,
+          "choices": [
+            "副",
+            "双",
+            "群"
+          ]
+        },
+        {
+          "picture": "📚",
+          "pinyin": "duī",
+          "word": "堆",
+          "correctIndex": 0,
+          "choices": [
+            "堆",
+            "片",
+            "群"
+          ]
+        },
+        {
+          "picture": "🍃",
+          "pinyin": "piàn",
+          "word": "片",
+          "correctIndex": 2,
+          "choices": [
+            "副",
+            "双",
+            "片"
+          ]
+        }
+      ],
+      "theme": "space",
+      "themeName": "太空探险",
+      "themeSubtitle": "词语法则"
+    },
+    {
+      "id": "pronoun1",
+      "title": "第五十八关",
+      "subtitle": "我你他她它",
+      "icon": "我",
+      "rounds": [
+        {
+          "picture": "👤",
+          "pinyin": "wǒ",
+          "word": "我",
+          "correctIndex": 1,
+          "choices": [
+            "它",
+            "我",
+            "你"
+          ]
+        },
+        {
+          "picture": "👉",
+          "pinyin": "nǐ",
+          "word": "你",
+          "correctIndex": 1,
+          "choices": [
+            "它",
+            "你",
+            "我"
+          ]
+        },
+        {
+          "picture": "👨",
+          "pinyin": "tā",
+          "word": "他",
+          "correctIndex": 2,
+          "choices": [
+            "她",
+            "我",
+            "他"
+          ]
+        },
+        {
+          "picture": "👩",
+          "pinyin": "tā",
+          "word": "她",
+          "correctIndex": 1,
+          "choices": [
+            "我",
+            "她",
+            "你"
+          ]
+        },
+        {
+          "picture": "🐱",
+          "pinyin": "tā",
+          "word": "它",
+          "correctIndex": 2,
+          "choices": [
+            "他",
+            "她",
+            "它"
+          ]
+        }
+      ],
+      "theme": "space",
+      "themeName": "太空探险",
+      "themeSubtitle": "词语法则"
+    },
+    {
+      "id": "pronoun2",
+      "title": "第五十九关",
+      "subtitle": "这那谁什么",
+      "icon": "这",
+      "rounds": [
+        {
+          "picture": "👉",
+          "pinyin": "zhè",
+          "word": "这",
+          "correctIndex": 0,
+          "choices": [
+            "这",
+            "么",
+            "什"
+          ]
+        },
+        {
+          "picture": "👈",
+          "pinyin": "nà",
+          "word": "那",
+          "correctIndex": 0,
+          "choices": [
+            "那",
+            "这",
+            "谁"
+          ]
+        },
+        {
+          "picture": "❓",
+          "pinyin": "shuí",
+          "word": "谁",
+          "correctIndex": 2,
+          "choices": [
+            "这",
+            "么",
+            "谁"
+          ]
+        },
+        {
+          "picture": "❓",
+          "pinyin": "shén",
+          "word": "什",
+          "correctIndex": 2,
+          "choices": [
+            "那",
+            "么",
+            "什"
+          ]
+        },
+        {
+          "picture": "❓",
+          "pinyin": "me",
+          "word": "么",
+          "correctIndex": 2,
+          "choices": [
+            "什",
+            "这",
+            "么"
+          ]
+        }
+      ],
+      "theme": "space",
+      "themeName": "太空探险",
+      "themeSubtitle": "词语法则"
+    },
+    {
+      "id": "prep",
+      "title": "第六十关",
+      "subtitle": "在从到给用",
+      "icon": "在",
+      "rounds": [
+        {
+          "picture": "📍",
+          "pinyin": "zài",
+          "word": "在",
+          "correctIndex": 0,
+          "choices": [
+            "在",
+            "从",
+            "给"
+          ]
+        },
+        {
+          "picture": "⬅️",
+          "pinyin": "cóng",
+          "word": "从",
+          "correctIndex": 0,
+          "choices": [
+            "从",
+            "在",
+            "用"
+          ]
+        },
+        {
+          "picture": "➡️",
+          "pinyin": "dào",
+          "word": "到",
+          "correctIndex": 0,
+          "choices": [
+            "到",
+            "从",
+            "用"
+          ]
+        },
+        {
+          "picture": "🎁",
+          "pinyin": "gěi",
+          "word": "给",
+          "correctIndex": 2,
+          "choices": [
+            "用",
+            "从",
+            "给"
+          ]
+        },
+        {
+          "picture": "🔧",
+          "pinyin": "yòng",
+          "word": "用",
+          "correctIndex": 1,
+          "choices": [
+            "到",
+            "用",
+            "在"
+          ]
+        }
+      ],
+      "theme": "space",
+      "themeName": "太空探险",
+      "themeSubtitle": "词语法则"
+    },
+    {
+      "id": "conj",
+      "title": "第六十一关",
+      "subtitle": "和与及或而",
+      "icon": "和",
+      "rounds": [
+        {
+          "picture": "🤝",
+          "pinyin": "hé",
+          "word": "和",
+          "correctIndex": 2,
+          "choices": [
+            "而",
+            "或",
+            "和"
+          ]
+        },
+        {
+          "picture": "🤝",
+          "pinyin": "yǔ",
+          "word": "与",
+          "correctIndex": 1,
+          "choices": [
+            "而",
+            "与",
+            "及"
+          ]
+        },
+        {
+          "picture": "📋",
+          "pinyin": "jí",
+          "word": "及",
+          "correctIndex": 1,
+          "choices": [
+            "或",
+            "及",
+            "与"
+          ]
+        },
+        {
+          "picture": "❓",
+          "pinyin": "huò",
+          "word": "或",
+          "correctIndex": 2,
+          "choices": [
+            "及",
+            "与",
+            "或"
+          ]
+        },
+        {
+          "picture": "📝",
+          "pinyin": "ér",
+          "word": "而",
+          "correctIndex": 0,
+          "choices": [
+            "而",
+            "和",
+            "与"
+          ]
+        }
+      ],
+      "theme": "wheatfield",
+      "themeName": "金色麦田",
+      "themeSubtitle": "连接副词"
+    },
+    {
+      "id": "adv1",
+      "title": "第六十二关",
+      "subtitle": "很都也还再",
+      "icon": "很",
+      "rounds": [
+        {
+          "picture": "👍",
+          "pinyin": "hěn",
+          "word": "很",
+          "correctIndex": 0,
+          "choices": [
+            "很",
+            "都",
+            "再"
+          ]
+        },
+        {
+          "picture": "🌐",
+          "pinyin": "dōu",
+          "word": "都",
+          "correctIndex": 0,
+          "choices": [
+            "都",
+            "还",
+            "很"
+          ]
+        },
+        {
+          "picture": "🔄",
+          "pinyin": "yě",
+          "word": "也",
+          "correctIndex": 1,
+          "choices": [
+            "都",
+            "也",
+            "很"
+          ]
+        },
+        {
+          "picture": "🔁",
+          "pinyin": "hái",
+          "word": "还",
+          "correctIndex": 0,
+          "choices": [
+            "还",
+            "也",
+            "很"
+          ]
+        },
+        {
+          "picture": "🔁",
+          "pinyin": "zài",
+          "word": "再",
+          "correctIndex": 1,
+          "choices": [
+            "都",
+            "再",
+            "很"
+          ]
+        }
+      ],
+      "theme": "wheatfield",
+      "themeName": "金色麦田",
+      "themeSubtitle": "连接副词"
+    },
+    {
+      "id": "adv2",
+      "title": "第六十三关",
+      "subtitle": "才就要会能",
+      "icon": "才",
+      "rounds": [
+        {
+          "picture": "✨",
+          "pinyin": "cái",
+          "word": "才",
+          "correctIndex": 0,
+          "choices": [
+            "才",
+            "能",
+            "要"
+          ]
+        },
+        {
+          "picture": "➡️",
+          "pinyin": "jiù",
+          "word": "就",
+          "correctIndex": 2,
+          "choices": [
+            "才",
+            "会",
+            "就"
+          ]
+        },
+        {
+          "picture": "❗",
+          "pinyin": "yào",
+          "word": "要",
+          "correctIndex": 2,
+          "choices": [
+            "就",
+            "能",
+            "要"
+          ]
+        },
+        {
+          "picture": "✅",
+          "pinyin": "huì",
+          "word": "会",
+          "correctIndex": 2,
+          "choices": [
+            "就",
+            "能",
+            "会"
+          ]
+        },
+        {
+          "picture": "💪",
+          "pinyin": "néng",
+          "word": "能",
+          "correctIndex": 2,
+          "choices": [
+            "会",
+            "要",
+            "能"
+          ]
+        }
+      ],
+      "theme": "wheatfield",
+      "themeName": "金色麦田",
+      "themeSubtitle": "连接副词"
+    },
+    {
+      "id": "farm",
+      "title": "第六十四关",
+      "subtitle": "耕种收藏播",
+      "icon": "耕",
+      "rounds": [
+        {
+          "picture": "🚜",
+          "pinyin": "gēng",
+          "word": "耕",
+          "correctIndex": 0,
+          "choices": [
+            "耕",
+            "藏",
+            "播"
+          ]
+        },
+        {
+          "picture": "🌱",
+          "pinyin": "zhòng",
+          "word": "种",
+          "correctIndex": 2,
+          "choices": [
+            "耕",
+            "播",
+            "种"
+          ]
+        },
+        {
+          "picture": "🌾",
+          "pinyin": "shōu",
+          "word": "收",
+          "correctIndex": 1,
+          "choices": [
+            "种",
+            "收",
+            "藏"
+          ]
+        },
+        {
+          "picture": "📦",
+          "pinyin": "cáng",
+          "word": "藏",
+          "correctIndex": 2,
+          "choices": [
+            "种",
+            "收",
+            "藏"
+          ]
+        },
+        {
+          "picture": "🌱",
+          "pinyin": "bō",
+          "word": "播",
+          "correctIndex": 0,
+          "choices": [
+            "播",
+            "收",
+            "种"
+          ]
+        }
+      ],
+      "theme": "wheatfield",
+      "themeName": "金色麦田",
+      "themeSubtitle": "连接副词"
+    },
+    {
+      "id": "places",
+      "title": "第六十五关",
+      "subtitle": "城市乡镇",
+      "icon": "城",
+      "rounds": [
+        {
+          "picture": "🏙️",
+          "pinyin": "chéng",
+          "word": "城",
+          "correctIndex": 1,
+          "choices": [
+            "村",
+            "城",
+            "乡"
+          ]
+        },
+        {
+          "picture": "🏙️",
+          "pinyin": "shì",
+          "word": "市",
+          "correctIndex": 0,
+          "choices": [
+            "市",
+            "城",
+            "镇"
+          ]
+        },
+        {
+          "picture": "🏡",
+          "pinyin": "xiāng",
+          "word": "乡",
+          "correctIndex": 2,
+          "choices": [
+            "市",
+            "镇",
+            "乡"
+          ]
+        },
+        {
+          "picture": "🏘️",
+          "pinyin": "cūn",
+          "word": "村",
+          "correctIndex": 0,
+          "choices": [
+            "村",
+            "镇",
+            "城"
+          ]
+        },
+        {
+          "picture": "🏘️",
+          "pinyin": "zhèn",
+          "word": "镇",
+          "correctIndex": 0,
+          "choices": [
+            "镇",
+            "村",
+            "市"
+          ]
+        }
+      ],
+      "theme": "wheatfield",
+      "themeName": "金色麦田",
+      "themeSubtitle": "连接副词"
+    },
+    {
+      "id": "buildings",
+      "title": "第六十六关",
+      "subtitle": "楼房塔桥坝",
+      "icon": "楼",
+      "rounds": [
+        {
+          "picture": "🏢",
+          "pinyin": "lóu",
+          "word": "楼",
+          "correctIndex": 0,
+          "choices": [
+            "楼",
+            "桥",
+            "殿"
+          ]
+        },
+        {
+          "picture": "🗼",
+          "pinyin": "tǎ",
+          "word": "塔",
+          "correctIndex": 2,
+          "choices": [
+            "坝",
+            "殿",
+            "塔"
+          ]
+        },
+        {
+          "picture": "🌉",
+          "pinyin": "qiáo",
+          "word": "桥",
+          "correctIndex": 1,
+          "choices": [
+            "塔",
+            "桥",
+            "殿"
+          ]
+        },
+        {
+          "picture": "🌊",
+          "pinyin": "bà",
+          "word": "坝",
+          "correctIndex": 1,
+          "choices": [
+            "楼",
+            "坝",
+            "塔"
+          ]
+        },
+        {
+          "picture": "🏛️",
+          "pinyin": "diàn",
+          "word": "殿",
+          "correctIndex": 1,
+          "choices": [
+            "楼",
+            "殿",
+            "塔"
+          ]
+        }
+      ],
+      "theme": "palace",
+      "themeName": "古代宫殿",
+      "themeSubtitle": "建设职业"
+    },
+    {
+      "id": "transport",
+      "title": "第六十七关",
+      "subtitle": "车船舟轮汽",
+      "icon": "车",
+      "rounds": [
+        {
+          "picture": "🚗",
+          "pinyin": "chē",
+          "word": "车",
+          "correctIndex": 2,
+          "choices": [
+            "汽",
+            "轮",
+            "车"
+          ]
+        },
+        {
+          "picture": "🚢",
+          "pinyin": "chuán",
+          "word": "船",
+          "correctIndex": 2,
+          "choices": [
+            "轮",
+            "汽",
+            "船"
+          ]
+        },
+        {
+          "picture": "🛶",
+          "pinyin": "zhōu",
+          "word": "舟",
+          "correctIndex": 0,
+          "choices": [
+            "舟",
+            "车",
+            "船"
+          ]
+        },
+        {
+          "picture": "🚢",
+          "pinyin": "lún",
+          "word": "轮",
+          "correctIndex": 0,
+          "choices": [
+            "轮",
+            "汽",
+            "船"
+          ]
+        },
+        {
+          "picture": "🚗",
+          "pinyin": "qì",
+          "word": "汽",
+          "correctIndex": 2,
+          "choices": [
+            "轮",
+            "船",
+            "汽"
+          ]
+        }
+      ],
+      "theme": "palace",
+      "themeName": "古代宫殿",
+      "themeSubtitle": "建设职业"
+    },
+    {
+      "id": "body2",
+      "title": "第六十八关",
+      "subtitle": "脑骨血筋脉",
+      "icon": "脑",
+      "rounds": [
+        {
+          "picture": "🧠",
+          "pinyin": "nǎo",
+          "word": "脑",
+          "correctIndex": 0,
+          "choices": [
+            "脑",
+            "骨",
+            "脉"
+          ]
+        },
+        {
+          "picture": "🦴",
+          "pinyin": "gǔ",
+          "word": "骨",
+          "correctIndex": 0,
+          "choices": [
+            "骨",
+            "脑",
+            "筋"
+          ]
+        },
+        {
+          "picture": "🩸",
+          "pinyin": "xuè",
+          "word": "血",
+          "correctIndex": 2,
+          "choices": [
+            "骨",
+            "脑",
+            "血"
+          ]
+        },
+        {
+          "picture": "💪",
+          "pinyin": "jīn",
+          "word": "筋",
+          "correctIndex": 0,
+          "choices": [
+            "筋",
+            "血",
+            "脉"
+          ]
+        },
+        {
+          "picture": "🩺",
+          "pinyin": "mài",
+          "word": "脉",
+          "correctIndex": 0,
+          "choices": [
+            "脉",
+            "筋",
+            "骨"
+          ]
+        }
+      ],
+      "theme": "palace",
+      "themeName": "古代宫殿",
+      "themeSubtitle": "建设职业"
+    },
+    {
+      "id": "jobs",
+      "title": "第六十九关",
+      "subtitle": "医生师生兵",
+      "icon": "医",
+      "rounds": [
+        {
+          "picture": "👩‍⚕️",
+          "pinyin": "yī",
+          "word": "医",
+          "correctIndex": 2,
+          "choices": [
+            "兵",
+            "师",
+            "医"
+          ]
+        },
+        {
+          "picture": "👨‍🏫",
+          "pinyin": "shī",
+          "word": "师",
+          "correctIndex": 0,
+          "choices": [
+            "师",
+            "兵",
+            "医"
+          ]
+        },
+        {
+          "picture": "🎓",
+          "pinyin": "shēng",
+          "word": "生",
+          "correctIndex": 2,
+          "choices": [
+            "医",
+            "农",
+            "生"
+          ]
+        },
+        {
+          "picture": "👨‍🌾",
+          "pinyin": "nóng",
+          "word": "农",
+          "correctIndex": 1,
+          "choices": [
+            "医",
+            "农",
+            "师"
+          ]
+        },
+        {
+          "picture": "💂",
+          "pinyin": "bīng",
+          "word": "兵",
+          "correctIndex": 1,
+          "choices": [
+            "生",
+            "兵",
+            "师"
+          ]
+        }
+      ],
+      "theme": "palace",
+      "themeName": "古代宫殿",
+      "themeSubtitle": "建设职业"
+    },
+    {
+      "id": "kin1",
+      "title": "第七十关",
+      "subtitle": "爸妈哥姐弟",
+      "icon": "爸",
+      "rounds": [
+        {
+          "picture": "👨",
+          "pinyin": "bà",
+          "word": "爸",
+          "correctIndex": 1,
+          "choices": [
+            "妈",
+            "爸",
+            "弟"
+          ]
+        },
+        {
+          "picture": "👩",
+          "pinyin": "mā",
+          "word": "妈",
+          "correctIndex": 0,
+          "choices": [
+            "妈",
+            "弟",
+            "爸"
+          ]
+        },
+        {
+          "picture": "👦",
+          "pinyin": "gē",
+          "word": "哥",
+          "correctIndex": 0,
+          "choices": [
+            "哥",
+            "妈",
+            "姐"
+          ]
+        },
+        {
+          "picture": "👧",
+          "pinyin": "jiě",
+          "word": "姐",
+          "correctIndex": 1,
+          "choices": [
+            "哥",
+            "姐",
+            "爸"
+          ]
+        },
+        {
+          "picture": "👶",
+          "pinyin": "dì",
+          "word": "弟",
+          "correctIndex": 0,
+          "choices": [
+            "弟",
+            "姐",
+            "妈"
+          ]
+        }
+      ],
+      "theme": "palace",
+      "themeName": "古代宫殿",
+      "themeSubtitle": "建设职业"
+    },
+    {
+      "id": "kin2",
+      "title": "第七十一关",
+      "subtitle": "爷奶叔伯姑",
+      "icon": "奶",
+      "rounds": [
+        {
+          "picture": "👴",
+          "pinyin": "yé",
+          "word": "爷",
+          "correctIndex": 0,
+          "choices": [
+            "爷",
+            "姑",
+            "伯"
+          ]
+        },
+        {
+          "picture": "👵",
+          "pinyin": "nǎi",
+          "word": "奶",
+          "correctIndex": 0,
+          "choices": [
+            "奶",
+            "爷",
+            "姑"
+          ]
+        },
+        {
+          "picture": "👨",
+          "pinyin": "shū",
+          "word": "叔",
+          "correctIndex": 2,
+          "choices": [
+            "伯",
+            "姑",
+            "叔"
+          ]
+        },
+        {
+          "picture": "👨",
+          "pinyin": "bó",
+          "word": "伯",
+          "correctIndex": 2,
+          "choices": [
+            "姑",
+            "爷",
+            "伯"
+          ]
+        },
+        {
+          "picture": "👩",
+          "pinyin": "gū",
+          "word": "姑",
+          "correctIndex": 0,
+          "choices": [
+            "姑",
+            "奶",
+            "爷"
+          ]
+        }
+      ],
+      "theme": "moonscape",
+      "themeName": "月夜静思",
+      "themeSubtitle": "情感品格"
+    },
+    {
+      "id": "feeling",
+      "title": "第七十二关",
+      "subtitle": "情感悲欢",
+      "icon": "爱",
+      "rounds": [
+        {
+          "picture": "❤️",
+          "pinyin": "ài",
+          "word": "爱",
+          "correctIndex": 2,
+          "choices": [
+            "欢",
+            "愁",
+            "爱"
+          ]
+        },
+        {
+          "picture": "💔",
+          "pinyin": "hèn",
+          "word": "恨",
+          "correctIndex": 2,
+          "choices": [
+            "悲",
+            "欢",
+            "恨"
+          ]
+        },
+        {
+          "picture": "😄",
+          "pinyin": "huān",
+          "word": "欢",
+          "correctIndex": 2,
+          "choices": [
+            "愁",
+            "悲",
+            "欢"
+          ]
+        },
+        {
+          "picture": "😢",
+          "pinyin": "bēi",
+          "word": "悲",
+          "correctIndex": 0,
+          "choices": [
+            "悲",
+            "恨",
+            "欢"
+          ]
+        },
+        {
+          "picture": "😟",
+          "pinyin": "chóu",
+          "word": "愁",
+          "correctIndex": 2,
+          "choices": [
+            "爱",
+            "欢",
+            "愁"
+          ]
+        }
+      ],
+      "theme": "moonscape",
+      "themeName": "月夜静思",
+      "themeSubtitle": "情感品格"
+    },
+    {
+      "id": "virtue",
+      "title": "第七十三关",
+      "subtitle": "善恶诚信义",
+      "icon": "善",
+      "rounds": [
+        {
+          "picture": "😇",
+          "pinyin": "shàn",
+          "word": "善",
+          "correctIndex": 0,
+          "choices": [
+            "善",
+            "义",
+            "信"
+          ]
+        },
+        {
+          "picture": "😈",
+          "pinyin": "è",
+          "word": "恶",
+          "correctIndex": 2,
+          "choices": [
+            "善",
+            "义",
+            "恶"
+          ]
+        },
+        {
+          "picture": "🤝",
+          "pinyin": "chéng",
+          "word": "诚",
+          "correctIndex": 2,
+          "choices": [
+            "恶",
+            "信",
+            "诚"
+          ]
+        },
+        {
+          "picture": "🤝",
+          "pinyin": "xìn",
+          "word": "信",
+          "correctIndex": 0,
+          "choices": [
+            "信",
+            "善",
+            "诚"
+          ]
+        },
+        {
+          "picture": "⚖️",
+          "pinyin": "yì",
+          "word": "义",
+          "correctIndex": 0,
+          "choices": [
+            "义",
+            "诚",
+            "信"
+          ]
+        }
+      ],
+      "theme": "moonscape",
+      "themeName": "月夜静思",
+      "themeSubtitle": "情感品格"
+    },
+    {
+      "id": "talent",
+      "title": "第七十四关",
+      "subtitle": "智勇仁礼谦",
+      "icon": "智",
+      "rounds": [
+        {
+          "picture": "🧠",
+          "pinyin": "zhì",
+          "word": "智",
+          "correctIndex": 1,
+          "choices": [
+            "勇",
+            "智",
+            "谦"
+          ]
+        },
+        {
+          "picture": "💪",
+          "pinyin": "yǒng",
+          "word": "勇",
+          "correctIndex": 2,
+          "choices": [
+            "智",
+            "谦",
+            "勇"
+          ]
+        },
+        {
+          "picture": "❤️",
+          "pinyin": "rén",
+          "word": "仁",
+          "correctIndex": 2,
+          "choices": [
+            "礼",
+            "勇",
+            "仁"
+          ]
+        },
+        {
+          "picture": "🎩",
+          "pinyin": "lǐ",
+          "word": "礼",
+          "correctIndex": 1,
+          "choices": [
+            "智",
+            "礼",
+            "谦"
+          ]
+        },
+        {
+          "picture": "🙇",
+          "pinyin": "qiān",
+          "word": "谦",
+          "correctIndex": 0,
+          "choices": [
+            "谦",
+            "智",
+            "勇"
+          ]
+        }
+      ],
+      "theme": "moonscape",
+      "themeName": "月夜静思",
+      "themeSubtitle": "情感品格"
+    },
+    {
+      "id": "psych",
+      "title": "第七十五关",
+      "subtitle": "心理状态",
+      "icon": "乐",
+      "rounds": [
+        {
+          "picture": "😄",
+          "pinyin": "lè",
+          "word": "乐",
+          "correctIndex": 0,
+          "choices": [
+            "乐",
+            "愤",
+            "惧"
+          ]
+        },
+        {
+          "picture": "😢",
+          "pinyin": "āi",
+          "word": "哀",
+          "correctIndex": 2,
+          "choices": [
+            "恐",
+            "愤",
+            "哀"
+          ]
+        },
+        {
+          "picture": "😤",
+          "pinyin": "fèn",
+          "word": "愤",
+          "correctIndex": 2,
+          "choices": [
+            "惧",
+            "乐",
+            "愤"
+          ]
+        },
+        {
+          "picture": "😨",
+          "pinyin": "jù",
+          "word": "惧",
+          "correctIndex": 0,
+          "choices": [
+            "惧",
+            "乐",
+            "愤"
+          ]
+        },
+        {
+          "picture": "😱",
+          "pinyin": "kǒng",
+          "word": "恐",
+          "correctIndex": 1,
+          "choices": [
+            "愤",
+            "恐",
+            "哀"
+          ]
+        }
+      ],
+      "theme": "moonscape",
+      "themeName": "月夜静思",
+      "themeSubtitle": "情感品格"
+    },
+    {
+      "id": "festivals1",
+      "title": "第七十六关",
+      "subtitle": "节庆清明",
+      "icon": "节",
+      "rounds": [
+        {
+          "picture": "🎋",
+          "pinyin": "jié",
+          "word": "节",
+          "correctIndex": 2,
+          "choices": [
+            "清",
+            "端",
+            "节"
+          ]
+        },
+        {
+          "picture": "🏮",
+          "pinyin": "xiāo",
+          "word": "宵",
+          "correctIndex": 1,
+          "choices": [
+            "明",
+            "宵",
+            "清"
+          ]
+        },
+        {
+          "picture": "🌸",
+          "pinyin": "qīng",
+          "word": "清",
+          "correctIndex": 1,
+          "choices": [
+            "端",
+            "清",
+            "节"
+          ]
+        },
+        {
+          "picture": "🌼",
+          "pinyin": "míng",
+          "word": "明",
+          "correctIndex": 1,
+          "choices": [
+            "宵",
+            "明",
+            "节"
+          ]
+        },
+        {
+          "picture": "🐉",
+          "pinyin": "duān",
+          "word": "端",
+          "correctIndex": 0,
+          "choices": [
+            "端",
+            "宵",
+            "节"
+          ]
+        }
+      ],
+      "theme": "lantern",
+      "themeName": "灯笼夜景",
+      "themeSubtitle": "节日神话"
+    },
+    {
+      "id": "festivals2",
+      "title": "第七十七关",
+      "subtitle": "中秋国庆",
+      "icon": "午",
+      "rounds": [
+        {
+          "picture": "🍚",
+          "pinyin": "wǔ",
+          "word": "午",
+          "correctIndex": 0,
+          "choices": [
+            "午",
+            "国",
+            "秋"
+          ]
+        },
+        {
+          "picture": "🎑",
+          "pinyin": "zhōng",
+          "word": "中",
+          "correctIndex": 1,
+          "choices": [
+            "庆",
+            "中",
+            "国"
+          ]
+        },
+        {
+          "picture": "🏮",
+          "pinyin": "qiū",
+          "word": "秋",
+          "correctIndex": 2,
+          "choices": [
+            "午",
+            "庆",
+            "秋"
+          ]
+        },
+        {
+          "picture": "🇨🇳",
+          "pinyin": "guó",
+          "word": "国",
+          "correctIndex": 0,
+          "choices": [
+            "国",
+            "庆",
+            "秋"
+          ]
+        },
+        {
+          "picture": "🎉",
+          "pinyin": "qìng",
+          "word": "庆",
+          "correctIndex": 2,
+          "choices": [
+            "秋",
+            "午",
+            "庆"
+          ]
+        }
+      ],
+      "theme": "lantern",
+      "themeName": "灯笼夜景",
+      "themeSubtitle": "节日神话"
+    },
+    {
+      "id": "history",
+      "title": "第七十八关",
+      "subtitle": "皇帝后妃臣",
+      "icon": "皇",
+      "rounds": [
+        {
+          "picture": "👑",
+          "pinyin": "huáng",
+          "word": "皇",
+          "correctIndex": 2,
+          "choices": [
+            "妃",
+            "帝",
+            "皇"
+          ]
+        },
+        {
+          "picture": "👑",
+          "pinyin": "dì",
+          "word": "帝",
+          "correctIndex": 1,
+          "choices": [
+            "皇",
+            "帝",
+            "后"
+          ]
+        },
+        {
+          "picture": "👸",
+          "pinyin": "hòu",
+          "word": "后",
+          "correctIndex": 0,
+          "choices": [
+            "后",
+            "臣",
+            "妃"
+          ]
+        },
+        {
+          "picture": "👸",
+          "pinyin": "fēi",
+          "word": "妃",
+          "correctIndex": 0,
+          "choices": [
+            "妃",
+            "帝",
+            "臣"
+          ]
+        },
+        {
+          "picture": "🤴",
+          "pinyin": "chén",
+          "word": "臣",
+          "correctIndex": 2,
+          "choices": [
+            "后",
+            "帝",
+            "臣"
+          ]
+        }
+      ],
+      "theme": "lantern",
+      "themeName": "灯笼夜景",
+      "themeSubtitle": "节日神话"
+    },
+    {
+      "id": "story",
+      "title": "第七十九关",
+      "subtitle": "神话传说",
+      "icon": "神",
+      "rounds": [
+        {
+          "picture": "🙏",
+          "pinyin": "shén",
+          "word": "神",
+          "correctIndex": 1,
+          "choices": [
+            "话",
+            "神",
+            "仙"
+          ]
+        },
+        {
+          "picture": "🧚",
+          "pinyin": "xiān",
+          "word": "仙",
+          "correctIndex": 2,
+          "choices": [
+            "话",
+            "神",
+            "仙"
+          ]
+        },
+        {
+          "picture": "📖",
+          "pinyin": "huà",
+          "word": "话",
+          "correctIndex": 0,
+          "choices": [
+            "话",
+            "神",
+            "仙"
+          ]
+        },
+        {
+          "picture": "📜",
+          "pinyin": "chuán",
+          "word": "传",
+          "correctIndex": 0,
+          "choices": [
+            "传",
+            "神",
+            "史"
+          ]
+        },
+        {
+          "picture": "📜",
+          "pinyin": "shǐ",
+          "word": "史",
+          "correctIndex": 1,
+          "choices": [
+            "传",
+            "史",
+            "话"
+          ]
+        }
+      ],
+      "theme": "lantern",
+      "themeName": "灯笼夜景",
+      "themeSubtitle": "节日神话"
+    },
+    {
+      "id": "myth",
+      "title": "第八十关",
+      "subtitle": "龙凤麒麟龟",
+      "icon": "龙",
+      "rounds": [
+        {
+          "picture": "🐉",
+          "pinyin": "lóng",
+          "word": "龙",
+          "correctIndex": 1,
+          "choices": [
+            "麟",
+            "龙",
+            "凤"
+          ]
+        },
+        {
+          "picture": "🐓",
+          "pinyin": "fèng",
+          "word": "凤",
+          "correctIndex": 1,
+          "choices": [
+            "麒",
+            "凤",
+            "麟"
+          ]
+        },
+        {
+          "picture": "🦄",
+          "pinyin": "qí",
+          "word": "麒",
+          "correctIndex": 1,
+          "choices": [
+            "龟",
+            "麒",
+            "凤"
+          ]
+        },
+        {
+          "picture": "🦄",
+          "pinyin": "lín",
+          "word": "麟",
+          "correctIndex": 2,
+          "choices": [
+            "麒",
+            "龙",
+            "麟"
+          ]
+        },
+        {
+          "picture": "🐢",
+          "pinyin": "guī",
+          "word": "龟",
+          "correctIndex": 1,
+          "choices": [
+            "龙",
+            "龟",
+            "麒"
+          ]
+        }
+      ],
+      "theme": "lantern",
+      "themeName": "灯笼夜景",
+      "themeSubtitle": "节日神话"
+    },
+    {
+      "id": "drama",
+      "title": "第八十一关",
+      "subtitle": "戏曲歌舞剧",
+      "icon": "戏",
+      "rounds": [
+        {
+          "picture": "🎭",
+          "pinyin": "xì",
+          "word": "戏",
+          "correctIndex": 0,
+          "choices": [
+            "戏",
+            "剧",
+            "曲"
+          ]
+        },
+        {
+          "picture": "🎵",
+          "pinyin": "qǔ",
+          "word": "曲",
+          "correctIndex": 2,
+          "choices": [
+            "戏",
+            "歌",
+            "曲"
+          ]
+        },
+        {
+          "picture": "🎤",
+          "pinyin": "gē",
+          "word": "歌",
+          "correctIndex": 0,
+          "choices": [
+            "歌",
+            "戏",
+            "曲"
+          ]
+        },
+        {
+          "picture": "💃",
+          "pinyin": "wǔ",
+          "word": "舞",
+          "correctIndex": 1,
+          "choices": [
+            "曲",
+            "舞",
+            "戏"
+          ]
+        },
+        {
+          "picture": "🎬",
+          "pinyin": "jù",
+          "word": "剧",
+          "correctIndex": 2,
+          "choices": [
+            "曲",
+            "戏",
+            "剧"
+          ]
+        }
+      ],
+      "theme": "theater",
+      "themeName": "戏楼戏台",
+      "themeSubtitle": "文艺学科"
+    },
+    {
+      "id": "instrument",
+      "title": "第八十二关",
+      "subtitle": "琴瑟鼓笛锣",
+      "icon": "琴",
+      "rounds": [
+        {
+          "picture": "🎹",
+          "pinyin": "qín",
+          "word": "琴",
+          "correctIndex": 0,
+          "choices": [
+            "琴",
+            "鼓",
+            "瑟"
+          ]
+        },
+        {
+          "picture": "🎵",
+          "pinyin": "sè",
+          "word": "瑟",
+          "correctIndex": 0,
+          "choices": [
+            "瑟",
+            "琴",
+            "锣"
+          ]
+        },
+        {
+          "picture": "🥁",
+          "pinyin": "gǔ",
+          "word": "鼓",
+          "correctIndex": 0,
+          "choices": [
+            "鼓",
+            "瑟",
+            "锣"
+          ]
+        },
+        {
+          "picture": "🎶",
+          "pinyin": "dí",
+          "word": "笛",
+          "correctIndex": 2,
+          "choices": [
+            "鼓",
+            "琴",
+            "笛"
+          ]
+        },
+        {
+          "picture": "🥁",
+          "pinyin": "luó",
+          "word": "锣",
+          "correctIndex": 0,
+          "choices": [
+            "锣",
+            "琴",
+            "笛"
+          ]
+        }
+      ],
+      "theme": "theater",
+      "themeName": "戏楼戏台",
+      "themeSubtitle": "文艺学科"
+    },
+    {
+      "id": "literature",
+      "title": "第八十三关",
+      "subtitle": "诗词句赋篇",
+      "icon": "诗",
+      "rounds": [
+        {
+          "picture": "📝",
+          "pinyin": "shī",
+          "word": "诗",
+          "correctIndex": 0,
+          "choices": [
+            "诗",
+            "赋",
+            "篇"
+          ]
+        },
+        {
+          "picture": "📝",
+          "pinyin": "cí",
+          "word": "词",
+          "correctIndex": 1,
+          "choices": [
+            "赋",
+            "词",
+            "篇"
+          ]
+        },
+        {
+          "picture": "📝",
+          "pinyin": "jù",
+          "word": "句",
+          "correctIndex": 1,
+          "choices": [
+            "诗",
+            "句",
+            "篇"
+          ]
+        },
+        {
+          "picture": "📝",
+          "pinyin": "fù",
+          "word": "赋",
+          "correctIndex": 1,
+          "choices": [
+            "句",
+            "赋",
+            "诗"
+          ]
+        },
+        {
+          "picture": "📃",
+          "pinyin": "piān",
+          "word": "篇",
+          "correctIndex": 0,
+          "choices": [
+            "篇",
+            "赋",
+            "词"
+          ]
+        }
+      ],
+      "theme": "theater",
+      "themeName": "戏楼戏台",
+      "themeSubtitle": "文艺学科"
+    },
+    {
+      "id": "subject",
+      "title": "第八十四关",
+      "subtitle": "语历数理化",
+      "icon": "语",
+      "rounds": [
+        {
+          "picture": "🗣️",
+          "pinyin": "yǔ",
+          "word": "语",
+          "correctIndex": 0,
+          "choices": [
+            "语",
+            "历",
+            "数"
+          ]
+        },
+        {
+          "picture": "📖",
+          "pinyin": "lì",
+          "word": "历",
+          "correctIndex": 1,
+          "choices": [
+            "语",
+            "历",
+            "数"
+          ]
+        },
+        {
+          "picture": "🔢",
+          "pinyin": "shù",
+          "word": "数",
+          "correctIndex": 1,
+          "choices": [
+            "历",
+            "数",
+            "理"
+          ]
+        },
+        {
+          "picture": "⚛️",
+          "pinyin": "lǐ",
+          "word": "理",
+          "correctIndex": 0,
+          "choices": [
+            "理",
+            "数",
+            "语"
+          ]
+        },
+        {
+          "picture": "🧪",
+          "pinyin": "huà",
+          "word": "化",
+          "correctIndex": 1,
+          "choices": [
+            "数",
+            "化",
+            "历"
+          ]
+        }
+      ],
+      "theme": "theater",
+      "themeName": "戏楼戏台",
+      "themeSubtitle": "文艺学科"
+    },
+    {
+      "id": "tools2",
+      "title": "第八十五关",
+      "subtitle": "秤钟表镜针",
+      "icon": "秤",
+      "rounds": [
+        {
+          "picture": "⚖️",
+          "pinyin": "chèng",
+          "word": "秤",
+          "correctIndex": 0,
+          "choices": [
+            "秤",
+            "钟",
+            "针"
+          ]
+        },
+        {
+          "picture": "🕰️",
+          "pinyin": "zhōng",
+          "word": "钟",
+          "correctIndex": 2,
+          "choices": [
+            "秤",
+            "针",
+            "钟"
+          ]
+        },
+        {
+          "picture": "⌚",
+          "pinyin": "biǎo",
+          "word": "表",
+          "correctIndex": 0,
+          "choices": [
+            "表",
+            "镜",
+            "针"
+          ]
+        },
+        {
+          "picture": "🪞",
+          "pinyin": "jìng",
+          "word": "镜",
+          "correctIndex": 2,
+          "choices": [
+            "秤",
+            "钟",
+            "镜"
+          ]
+        },
+        {
+          "picture": "🧭",
+          "pinyin": "zhēn",
+          "word": "针",
+          "correctIndex": 2,
+          "choices": [
+            "秤",
+            "钟",
+            "针"
+          ]
+        }
+      ],
+      "theme": "theater",
+      "themeName": "戏楼戏台",
+      "themeSubtitle": "文艺学科"
+    },
+    {
+      "id": "tools3",
+      "title": "第八十六关",
+      "subtitle": "锤锯钉铲斧",
+      "icon": "锤",
+      "rounds": [
+        {
+          "picture": "🪚",
+          "pinyin": "jù",
+          "word": "锯",
+          "correctIndex": 2,
+          "choices": [
+            "铲",
+            "钉",
+            "锯"
+          ]
+        },
+        {
+          "picture": "📌",
+          "pinyin": "dīng",
+          "word": "钉",
+          "correctIndex": 0,
+          "choices": [
+            "钉",
+            "锄",
+            "铲"
+          ]
+        },
+        {
+          "picture": "⛏️",
+          "pinyin": "chǎn",
+          "word": "铲",
+          "correctIndex": 2,
+          "choices": [
+            "锄",
+            "斧",
+            "铲"
+          ]
+        },
+        {
+          "picture": "⛏️",
+          "pinyin": "chú",
+          "word": "锄",
+          "correctIndex": 2,
+          "choices": [
+            "锯",
+            "铲",
+            "锄"
+          ]
+        },
+        {
+          "picture": "🪓",
+          "pinyin": "fǔ",
+          "word": "斧",
+          "correctIndex": 1,
+          "choices": [
+            "锯",
+            "斧",
+            "钉"
+          ]
+        }
+      ],
+      "theme": "workshop",
+      "themeName": "工匠作坊",
+      "themeSubtitle": "器物工具"
+    },
+    {
+      "id": "tools4",
+      "title": "第八十七关",
+      "subtitle": "锁钥绳网袋",
+      "icon": "锁",
+      "rounds": [
+        {
+          "picture": "🔒",
+          "pinyin": "suǒ",
+          "word": "锁",
+          "correctIndex": 0,
+          "choices": [
+            "锁",
+            "袋",
+            "绳"
+          ]
+        },
+        {
+          "picture": "🔑",
+          "pinyin": "yào",
+          "word": "钥",
+          "correctIndex": 1,
+          "choices": [
+            "锁",
+            "钥",
+            "网"
+          ]
+        },
+        {
+          "picture": "🪢",
+          "pinyin": "shéng",
+          "word": "绳",
+          "correctIndex": 1,
+          "choices": [
+            "锁",
+            "绳",
+            "袋"
+          ]
+        },
+        {
+          "picture": "🕸️",
+          "pinyin": "wǎng",
+          "word": "网",
+          "correctIndex": 0,
+          "choices": [
+            "网",
+            "绳",
+            "钥"
+          ]
+        },
+        {
+          "picture": "👜",
+          "pinyin": "dài",
+          "word": "袋",
+          "correctIndex": 1,
+          "choices": [
+            "锁",
+            "袋",
+            "钥"
+          ]
+        }
+      ],
+      "theme": "workshop",
+      "themeName": "工匠作坊",
+      "themeSubtitle": "器物工具"
+    },
+    {
+      "id": "tools5",
+      "title": "第八十八关",
+      "subtitle": "伞扇枕被褥",
+      "icon": "伞",
+      "rounds": [
+        {
+          "picture": "☂️",
+          "pinyin": "sǎn",
+          "word": "伞",
+          "correctIndex": 0,
+          "choices": [
+            "伞",
+            "褥",
+            "扇"
+          ]
+        },
+        {
+          "picture": "🪭",
+          "pinyin": "shàn",
+          "word": "扇",
+          "correctIndex": 1,
+          "choices": [
+            "褥",
+            "扇",
+            "枕"
+          ]
+        },
+        {
+          "picture": "🛏️",
+          "pinyin": "zhěn",
+          "word": "枕",
+          "correctIndex": 0,
+          "choices": [
+            "枕",
+            "被",
+            "褥"
+          ]
+        },
+        {
+          "picture": "🛌",
+          "pinyin": "bèi",
+          "word": "被",
+          "correctIndex": 0,
+          "choices": [
+            "被",
+            "扇",
+            "褥"
+          ]
+        },
+        {
+          "picture": "🛏️",
+          "pinyin": "rù",
+          "word": "褥",
+          "correctIndex": 2,
+          "choices": [
+            "扇",
+            "被",
+            "褥"
+          ]
+        }
+      ],
+      "theme": "workshop",
+      "themeName": "工匠作坊",
+      "themeSubtitle": "器物工具"
+    },
+    {
+      "id": "daily",
+      "title": "第八十九关",
+      "subtitle": "杯瓶壶桶盆",
+      "icon": "瓶",
+      "rounds": [
+        {
+          "picture": "🍾",
+          "pinyin": "píng",
+          "word": "瓶",
+          "correctIndex": 2,
+          "choices": [
+            "壶",
+            "瓮",
+            "瓶"
+          ]
+        },
+        {
+          "picture": "🫖",
+          "pinyin": "hú",
+          "word": "壶",
+          "correctIndex": 1,
+          "choices": [
+            "瓶",
+            "壶",
+            "桶"
+          ]
+        },
+        {
+          "picture": "🪣",
+          "pinyin": "tǒng",
+          "word": "桶",
+          "correctIndex": 1,
+          "choices": [
+            "盆",
+            "桶",
+            "瓶"
+          ]
+        },
+        {
+          "picture": "🪣",
+          "pinyin": "pén",
+          "word": "盆",
+          "correctIndex": 2,
+          "choices": [
+            "桶",
+            "壶",
+            "盆"
+          ]
+        },
+        {
+          "picture": "🏺",
+          "pinyin": "wèng",
+          "word": "瓮",
+          "correctIndex": 2,
+          "choices": [
+            "壶",
+            "桶",
+            "瓮"
+          ]
+        }
+      ],
+      "theme": "workshop",
+      "themeName": "工匠作坊",
+      "themeSubtitle": "器物工具"
+    },
+    {
+      "id": "furniture",
+      "title": "第九十关",
+      "subtitle": "柜床灯架箱",
+      "icon": "柜",
+      "rounds": [
+        {
+          "picture": "🗄️",
+          "pinyin": "guì",
+          "word": "柜",
+          "correctIndex": 0,
+          "choices": [
+            "柜",
+            "灯",
+            "架"
+          ]
+        },
+        {
+          "picture": "🛏️",
+          "pinyin": "chuáng",
+          "word": "床",
+          "correctIndex": 0,
+          "choices": [
+            "床",
+            "箱",
+            "柜"
+          ]
+        },
+        {
+          "picture": "💡",
+          "pinyin": "dēng",
+          "word": "灯",
+          "correctIndex": 0,
+          "choices": [
+            "灯",
+            "床",
+            "箱"
+          ]
+        },
+        {
+          "picture": "🪜",
+          "pinyin": "jià",
+          "word": "架",
+          "correctIndex": 1,
+          "choices": [
+            "灯",
+            "架",
+            "床"
+          ]
+        },
+        {
+          "picture": "📦",
+          "pinyin": "xiāng",
+          "word": "箱",
+          "correctIndex": 0,
+          "choices": [
+            "箱",
+            "灯",
+            "架"
+          ]
+        }
+      ],
+      "theme": "workshop",
+      "themeName": "工匠作坊",
+      "themeSubtitle": "器物工具"
+    },
+    {
+      "id": "food2",
+      "title": "第九十一关",
+      "subtitle": "饭粥饺包馒",
+      "icon": "饭",
+      "rounds": [
+        {
+          "picture": "🍚",
+          "pinyin": "fàn",
+          "word": "饭",
+          "correctIndex": 1,
+          "choices": [
+            "饺",
+            "饭",
+            "粥"
+          ]
+        },
+        {
+          "picture": "🍲",
+          "pinyin": "zhōu",
+          "word": "粥",
+          "correctIndex": 2,
+          "choices": [
+            "包",
+            "饭",
+            "粥"
+          ]
+        },
+        {
+          "picture": "🥟",
+          "pinyin": "jiǎo",
+          "word": "饺",
+          "correctIndex": 1,
+          "choices": [
+            "包",
+            "饺",
+            "粥"
+          ]
+        },
+        {
+          "picture": "🥟",
+          "pinyin": "bāo",
+          "word": "包",
+          "correctIndex": 1,
+          "choices": [
+            "饺",
+            "包",
+            "馒"
+          ]
+        },
+        {
+          "picture": "🍞",
+          "pinyin": "mán",
+          "word": "馒",
+          "correctIndex": 1,
+          "choices": [
+            "饭",
+            "馒",
+            "粥"
+          ]
+        }
+      ],
+      "theme": "kitchen",
+      "themeName": "热闹厨房",
+      "themeSubtitle": "饮食烹饪"
+    },
+    {
+      "id": "food3",
+      "title": "第九十二关",
+      "subtitle": "豆腐笋菇藕",
+      "icon": "豆",
+      "rounds": [
+        {
+          "picture": "🧊",
+          "pinyin": "dòu",
+          "word": "豆",
+          "correctIndex": 1,
+          "choices": [
+            "菇",
+            "豆",
+            "腐"
+          ]
+        },
+        {
+          "picture": "🌡️",
+          "pinyin": "fǔ",
+          "word": "腐",
+          "correctIndex": 2,
+          "choices": [
+            "笋",
+            "菇",
+            "腐"
+          ]
+        },
+        {
+          "picture": "🎋",
+          "pinyin": "sǔn",
+          "word": "笋",
+          "correctIndex": 1,
+          "choices": [
+            "腐",
+            "笋",
+            "藕"
+          ]
+        },
+        {
+          "picture": "🍄",
+          "pinyin": "gū",
+          "word": "菇",
+          "correctIndex": 1,
+          "choices": [
+            "笋",
+            "菇",
+            "豆"
+          ]
+        },
+        {
+          "picture": "🌿",
+          "pinyin": "ǒu",
+          "word": "藕",
+          "correctIndex": 2,
+          "choices": [
+            "腐",
+            "豆",
+            "藕"
+          ]
+        }
+      ],
+      "theme": "kitchen",
+      "themeName": "热闹厨房",
+      "themeSubtitle": "饮食烹饪"
+    },
+    {
+      "id": "cook-spice",
+      "title": "第九十三关",
+      "subtitle": "胡椒姜葱蒜",
+      "icon": "胡",
+      "rounds": [
+        {
+          "picture": "🌶️",
+          "pinyin": "hú",
+          "word": "胡",
+          "correctIndex": 0,
+          "choices": [
+            "胡",
+            "椒",
+            "姜"
+          ]
+        },
+        {
+          "picture": "🌶️",
+          "pinyin": "jiāo",
+          "word": "椒",
+          "correctIndex": 2,
+          "choices": [
+            "葱",
+            "姜",
+            "椒"
+          ]
+        },
+        {
+          "picture": "🌿",
+          "pinyin": "jiāng",
+          "word": "姜",
+          "correctIndex": 2,
+          "choices": [
+            "椒",
+            "葱",
+            "姜"
+          ]
+        },
+        {
+          "picture": "🌿",
+          "pinyin": "cōng",
+          "word": "葱",
+          "correctIndex": 2,
+          "choices": [
+            "姜",
+            "椒",
+            "葱"
+          ]
+        },
+        {
+          "picture": "🧄",
+          "pinyin": "suàn",
+          "word": "蒜",
+          "correctIndex": 2,
+          "choices": [
+            "椒",
+            "姜",
+            "蒜"
+          ]
+        }
+      ],
+      "theme": "kitchen",
+      "themeName": "热闹厨房",
+      "themeSubtitle": "饮食烹饪"
+    },
+    {
+      "id": "cook-method",
+      "title": "第九十四关",
+      "subtitle": "煮炒煎炸烤",
+      "icon": "煮",
+      "rounds": [
+        {
+          "picture": "🍲",
+          "pinyin": "zhǔ",
+          "word": "煮",
+          "correctIndex": 1,
+          "choices": [
+            "炸",
+            "煮",
+            "烤"
+          ]
+        },
+        {
+          "picture": "🍳",
+          "pinyin": "chǎo",
+          "word": "炒",
+          "correctIndex": 1,
+          "choices": [
+            "烤",
+            "炒",
+            "炸"
+          ]
+        },
+        {
+          "picture": "🍳",
+          "pinyin": "jiān",
+          "word": "煎",
+          "correctIndex": 2,
+          "choices": [
+            "炒",
+            "炸",
+            "煎"
+          ]
+        },
+        {
+          "picture": "🍳",
+          "pinyin": "zhá",
+          "word": "炸",
+          "correctIndex": 1,
+          "choices": [
+            "煮",
+            "炸",
+            "烤"
+          ]
+        },
+        {
+          "picture": "🍖",
+          "pinyin": "kǎo",
+          "word": "烤",
+          "correctIndex": 1,
+          "choices": [
+            "炒",
+            "烤",
+            "炸"
+          ]
+        }
+      ],
+      "theme": "kitchen",
+      "themeName": "热闹厨房",
+      "themeSubtitle": "饮食烹饪"
+    },
+    {
+      "id": "actions",
+      "title": "第九十五关",
+      "subtitle": "摇摆翻转",
+      "icon": "摇",
+      "rounds": [
+        {
+          "picture": "🪩",
+          "pinyin": "yáo",
+          "word": "摇",
+          "correctIndex": 0,
+          "choices": [
+            "摇",
+            "晃",
+            "转"
+          ]
+        },
+        {
+          "picture": "🔄",
+          "pinyin": "bǎi",
+          "word": "摆",
+          "correctIndex": 0,
+          "choices": [
+            "摆",
+            "晃",
+            "摇"
+          ]
+        },
+        {
+          "picture": "💫",
+          "pinyin": "huàng",
+          "word": "晃",
+          "correctIndex": 2,
+          "choices": [
+            "摇",
+            "摆",
+            "晃"
+          ]
+        },
+        {
+          "picture": "🔄",
+          "pinyin": "zhuǎn",
+          "word": "转",
+          "correctIndex": 0,
+          "choices": [
+            "转",
+            "摇",
+            "晃"
+          ]
+        },
+        {
+          "picture": "🔁",
+          "pinyin": "fān",
+          "word": "翻",
+          "correctIndex": 1,
+          "choices": [
+            "摆",
+            "翻",
+            "晃"
+          ]
+        }
+      ],
+      "theme": "kitchen",
+      "themeName": "热闹厨房",
+      "themeSubtitle": "饮食烹饪"
+    },
+    {
+      "id": "abstract1",
+      "title": "第九十六关",
+      "subtitle": "梦幻忆慕恋",
+      "icon": "梦",
+      "rounds": [
+        {
+          "picture": "💭",
+          "pinyin": "mèng",
+          "word": "梦",
+          "correctIndex": 2,
+          "choices": [
+            "恋",
+            "慕",
+            "梦"
+          ]
+        },
+        {
+          "picture": "✨",
+          "pinyin": "huàn",
+          "word": "幻",
+          "correctIndex": 2,
+          "choices": [
+            "慕",
+            "梦",
+            "幻"
+          ]
+        },
+        {
+          "picture": "🧠",
+          "pinyin": "yì",
+          "word": "忆",
+          "correctIndex": 0,
+          "choices": [
+            "忆",
+            "幻",
+            "梦"
+          ]
+        },
+        {
+          "picture": "🥰",
+          "pinyin": "mù",
+          "word": "慕",
+          "correctIndex": 0,
+          "choices": [
+            "慕",
+            "忆",
+            "梦"
+          ]
+        },
+        {
+          "picture": "💕",
+          "pinyin": "liàn",
+          "word": "恋",
+          "correctIndex": 1,
+          "choices": [
+            "慕",
+            "恋",
+            "忆"
+          ]
+        }
+      ],
+      "theme": "aurora",
+      "themeName": "星空极光",
+      "themeSubtitle": "抽象概念"
+    },
+    {
+      "id": "abstract2",
+      "title": "第九十七关",
+      "subtitle": "福祸运命缘",
+      "icon": "福",
+      "rounds": [
+        {
+          "picture": "🧧",
+          "pinyin": "fú",
+          "word": "福",
+          "correctIndex": 2,
+          "choices": [
+            "命",
+            "运",
+            "福"
+          ]
+        },
+        {
+          "picture": "💥",
+          "pinyin": "huò",
+          "word": "祸",
+          "correctIndex": 1,
+          "choices": [
+            "福",
+            "祸",
+            "缘"
+          ]
+        },
+        {
+          "picture": "🎯",
+          "pinyin": "yùn",
+          "word": "运",
+          "correctIndex": 2,
+          "choices": [
+            "命",
+            "祸",
+            "运"
+          ]
+        },
+        {
+          "picture": "⚖️",
+          "pinyin": "mìng",
+          "word": "命",
+          "correctIndex": 1,
+          "choices": [
+            "祸",
+            "命",
+            "福"
+          ]
+        },
+        {
+          "picture": "❤️",
+          "pinyin": "yuán",
+          "word": "缘",
+          "correctIndex": 0,
+          "choices": [
+            "缘",
+            "祸",
+            "运"
+          ]
+        }
+      ],
+      "theme": "aurora",
+      "themeName": "星空极光",
+      "themeSubtitle": "抽象概念"
+    },
+    {
+      "id": "abstract3",
+      "title": "第九十八关",
+      "subtitle": "真假对错正",
+      "icon": "真",
+      "rounds": [
+        {
+          "picture": "✅",
+          "pinyin": "zhēn",
+          "word": "真",
+          "correctIndex": 1,
+          "choices": [
+            "对",
+            "真",
+            "正"
+          ]
+        },
+        {
+          "picture": "❌",
+          "pinyin": "jiǎ",
+          "word": "假",
+          "correctIndex": 1,
+          "choices": [
+            "正",
+            "假",
+            "对"
+          ]
+        },
+        {
+          "picture": "✅",
+          "pinyin": "duì",
+          "word": "对",
+          "correctIndex": 2,
+          "choices": [
+            "真",
+            "正",
+            "对"
+          ]
+        },
+        {
+          "picture": "❌",
+          "pinyin": "cuò",
+          "word": "错",
+          "correctIndex": 1,
+          "choices": [
+            "真",
+            "错",
+            "正"
+          ]
+        },
+        {
+          "picture": "✅",
+          "pinyin": "zhèng",
+          "word": "正",
+          "correctIndex": 1,
+          "choices": [
+            "对",
+            "正",
+            "真"
+          ]
+        }
+      ],
+      "theme": "aurora",
+      "themeName": "星空极光",
+      "themeSubtitle": "抽象概念"
+    },
+    {
+      "id": "abstract4",
+      "title": "第九十九关",
+      "subtitle": "丑佳劣优秀",
+      "icon": "丑",
+      "rounds": [
+        {
+          "picture": "🤡",
+          "pinyin": "chǒu",
+          "word": "丑",
+          "correctIndex": 0,
+          "choices": [
+            "丑",
+            "优",
+            "秀"
+          ]
+        },
+        {
+          "picture": "👍",
+          "pinyin": "jiā",
+          "word": "佳",
+          "correctIndex": 1,
+          "choices": [
+            "劣",
+            "佳",
+            "秀"
+          ]
+        },
+        {
+          "picture": "👎",
+          "pinyin": "liè",
+          "word": "劣",
+          "correctIndex": 0,
+          "choices": [
+            "劣",
+            "秀",
+            "优"
+          ]
+        },
+        {
+          "picture": "👍",
+          "pinyin": "yōu",
+          "word": "优",
+          "correctIndex": 1,
+          "choices": [
+            "秀",
+            "优",
+            "佳"
+          ]
+        },
+        {
+          "picture": "🌟",
+          "pinyin": "xiù",
+          "word": "秀",
+          "correctIndex": 2,
+          "choices": [
+            "丑",
+            "劣",
+            "秀"
+          ]
+        }
+      ],
+      "theme": "aurora",
+      "themeName": "星空极光",
+      "themeSubtitle": "抽象概念"
+    },
+    {
+      "id": "abstract5",
+      "title": "第一百关",
+      "subtitle": "光暗亮黑阳",
+      "icon": "光",
+      "rounds": [
+        {
+          "picture": "💡",
+          "pinyin": "guāng",
+          "word": "光",
+          "correctIndex": 1,
+          "choices": [
+            "亮",
+            "光",
+            "黑"
+          ]
+        },
+        {
+          "picture": "🌑",
+          "pinyin": "àn",
+          "word": "暗",
+          "correctIndex": 2,
+          "choices": [
+            "阳",
+            "光",
+            "暗"
+          ]
+        },
+        {
+          "picture": "💡",
+          "pinyin": "liàng",
+          "word": "亮",
+          "correctIndex": 0,
+          "choices": [
+            "亮",
+            "阳",
+            "光"
+          ]
+        },
+        {
+          "picture": "⚫",
+          "pinyin": "hēi",
+          "word": "黑",
+          "correctIndex": 1,
+          "choices": [
+            "阳",
+            "黑",
+            "光"
+          ]
+        },
+        {
+          "picture": "☀️",
+          "pinyin": "yáng",
+          "word": "阳",
+          "correctIndex": 2,
+          "choices": [
+            "暗",
+            "黑",
+            "阳"
+          ]
+        }
+      ],
+      "theme": "aurora",
+      "themeName": "星空极光",
+      "themeSubtitle": "抽象概念"
+    }
+  ]
+}

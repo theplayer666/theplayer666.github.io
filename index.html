@@ -6,8 +6,8 @@
     <meta name="theme-color" content="#7ec8ff" />
     <link rel="icon" href="data:," />
     <title>识字小镇 · Character Town</title>
-    <script type="module" crossorigin src="/assets/index-C0IZ0agx.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Byy6mVS5.css">
+    <script type="module" crossorigin src="/assets/index-DwKI44O6.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CIDDuArJ.css">
   </head>
   <body>
     <main id="app">
@@ -15,9 +15,9 @@
 
       <!-- 顶部：图片提示 + 拼音 + 词语 -->
       <section id="prompt-card" aria-live="polite">
-        <div id="prompt-picture" aria-hidden="true">☀️</div>
+        <div id="prompt-picture" aria-hidden="true">🌙</div>
         <div id="prompt-text">
-          <div id="prompt-pinyin">tài yáng</div>
+          <div id="prompt-pinyin">yuè</div>
           <div id="prompt-word">
             <span class="char-slot" data-slot="0">?</span>
           </div>
@@ -30,12 +30,26 @@
         <div id="status-line">准备好啦！走向正确的汉字 ✨</div>
       </section>
 
-      <!-- 开始 / 结束 弹窗 -->
-      <section id="overlay" class="overlay-visible">
+      <!-- 游戏中右上方：返回关卡列表（左）+ 换装（右） -->
+      <button id="back-fab" type="button" aria-label="返回关卡选择" hidden>
+        <span class="back-fab-icon" aria-hidden="true">🏠</span>
+        <span class="back-fab-label">关卡</span>
+      </button>
+
+      <!-- 始终可见的换装入口：放在右上方，游戏过程中也能用 -->
+      <button id="outfit-fab" type="button" aria-label="打开换装">
+        <span class="outfit-fab-icon" aria-hidden="true">👗</span>
+        <span class="outfit-fab-label">换装</span>
+      </button>
+
+      <!-- 开始 / 结束 弹窗。初始隐藏，等 Game.start() 加载完 stages.json 后再显示。 -->
+      <section id="overlay">
         <div id="overlay-card">
           <h1 id="overlay-title">识字小镇</h1>
-          <p id="overlay-body">看图选字。走向正确的汉字方块，就能学会新字啦！</p>
+          <p id="overlay-body">正在准备关卡…</p>
+          <div id="overlay-extras"></div>
           <button id="overlay-button" type="button">开始游戏</button>
+          <button id="overlay-secondary" type="button" hidden>选择其他关卡</button>
         </div>
       </section>
 
@@ -62,6 +76,30 @@
           <button id="mobile-hint-close" type="button">知道了</button>
         </div>
         <div class="hint-arrow" aria-hidden="true">↙</div>
+      </section>
+
+      <!-- 手柄首次连接提示：与移动端 hint 类似，列出手柄按键映射 -->
+      <section id="gamepad-hint" aria-live="polite">
+        <div class="hint-card gp-hint-card">
+          <div class="gp-hint-title">🎮 手柄已连接</div>
+          <div class="hint-row">
+            <span class="hint-icon" aria-hidden="true">🕹️</span>
+            <span class="hint-text">左摇杆：移动 · 右摇杆：转动视角</span>
+          </div>
+          <div class="hint-row">
+            <span class="hint-icon" aria-hidden="true">🅰️</span>
+            <span class="hint-text">A 键：进入 / 确认 · B 键：返回</span>
+          </div>
+          <div class="hint-row">
+            <span class="hint-icon" aria-hidden="true">🔼</span>
+            <span class="hint-text">方向键：选择关卡 / 服装</span>
+          </div>
+          <div class="hint-row">
+            <span class="hint-icon" aria-hidden="true">🟡</span>
+            <span class="hint-text">Y 键：换装 · Start：朗读字音</span>
+          </div>
+          <button id="gamepad-hint-close" type="button">知道了</button>
+        </div>
       </section>
     </main>
   </body>
