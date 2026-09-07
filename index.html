@@ -6,8 +6,8 @@
     <meta name="theme-color" content="#7ec8ff" />
     <link rel="icon" href="data:," />
     <title>识字小镇 · Character Town</title>
-    <script type="module" crossorigin src="/assets/index-LB1kmnhk.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-JsREtGUD.css">
+    <script type="module" crossorigin src="/assets/index-C0IZ0agx.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Byy6mVS5.css">
   </head>
   <body>
     <main id="app">
@@ -47,6 +47,22 @@
         <!-- 占位按钮（保持 InputController 依赖；触屏上隐藏） -->
         <button id="dash-button" type="button" tabindex="-1" aria-hidden="true"></button>
       </div>
+
+      <!-- 移动端首次进入提示 -->
+      <section id="mobile-hint" aria-live="polite">
+        <div class="hint-card">
+          <div class="hint-row">
+            <span class="hint-icon" aria-hidden="true">🕹️</span>
+            <span class="hint-text">推动左下摇杆，让小兔子走动</span>
+          </div>
+          <div class="hint-row">
+            <span class="hint-icon" aria-hidden="true">👆</span>
+            <span class="hint-text">在场景上滑动手指，可以转动视角</span>
+          </div>
+          <button id="mobile-hint-close" type="button">知道了</button>
+        </div>
+        <div class="hint-arrow" aria-hidden="true">↙</div>
+      </section>
     </main>
   </body>
 </html>
