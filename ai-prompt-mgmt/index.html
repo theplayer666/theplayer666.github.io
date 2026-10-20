@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- viewport-fit=cover 让 iOS Safari 暴露 env(safe-area-inset-*)，
+         配合 Layout Header 的安全区 padding 才能避免 PWA 状态栏遮挡。
+         注意：去掉了 maximum-scale=1.0 + user-scalable=no（反 a11y，
+         Apple 在 iOS 10+ 已明确建议不要禁用用户缩放）。 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#001529" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>提示词库</title>
+    
+    <!-- 标准图标 -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32-Df_8tx84.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16-BH65xF8a.png" />
+    
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon-C6WDNddz.png" />
+    
+    <!-- Android Chrome -->
+    <link rel="manifest" href="./manifest.json" />
+    
+    <meta name="description" content="提示词库 - 高效管理和复用AI提示词" />
+    <script type="module" crossorigin src="./assets/index-Do7hXs7R.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CJKkg_i5.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
