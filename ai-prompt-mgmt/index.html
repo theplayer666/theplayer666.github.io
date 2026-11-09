@@ -7,26 +7,61 @@
          注意：去掉了 maximum-scale=1.0 + user-scalable=no（反 a11y，
          Apple 在 iOS 10+ 已明确建议不要禁用用户缩放）。 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#001529" />
+    <meta name="theme-color" content="#f2f2f7" id="theme-color-meta" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="提示词库" />
     <title>提示词库</title>
-    
-    <!-- 标准图标 -->
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32-Df_8tx84.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16-BH65xF8a.png" />
+
+    <!-- 标准图标：优先 SVG（可缩放），再回退 PNG -->
+    <link rel="icon" type="image/svg+xml" sizes="any" href="./favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
     
     <!-- Apple Touch Icon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon-C6WDNddz.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
     
     <!-- Android Chrome -->
     <link rel="manifest" href="./manifest.json" />
     
     <meta name="description" content="提示词库 - 高效管理和复用AI提示词" />
-    <script type="module" crossorigin src="./assets/index-Do7hXs7R.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CJKkg_i5.css">
+
+    <!-- 主题：首屏内联解析（浅色/暗色/跟随系统），避免 React 挂载前闪烁 -->
+    <script>
+      (function () {
+        var mode = 'light';
+        try {
+          var raw = localStorage.getItem('app-settings');
+          if (raw) {
+            var parsed = JSON.parse(raw);
+            if (
+              parsed &&
+              (parsed.themeMode === 'light' ||
+                parsed.themeMode === 'dark' ||
+                parsed.themeMode === 'system')
+            ) {
+              mode = parsed.themeMode;
+            }
+          }
+        } catch (e) {
+          /* localStorage 不可用时退回浅色 */
+        }
+        var resolved =
+          mode === 'system'
+            ? window.matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light'
+            : mode;
+        var root = document.documentElement;
+        root.dataset.theme = resolved;
+        root.style.colorScheme = resolved;
+        var meta = document.getElementById('theme-color-meta');
+        if (meta) meta.content = resolved === 'dark' ? '#1c1c1e' : '#f2f2f7';
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-C2vUf6h9.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-aep-pzHk.css">
   </head>
   <body>
     <div id="root"></div>
