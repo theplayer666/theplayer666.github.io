@@ -31,17 +31,27 @@
     <script>
       (function () {
         var mode = 'light';
+        var glass = 'standard';
         try {
           var raw = localStorage.getItem('app-settings');
           if (raw) {
             var parsed = JSON.parse(raw);
-            if (
-              parsed &&
-              (parsed.themeMode === 'light' ||
+            if (parsed) {
+              if (
+                parsed.themeMode === 'light' ||
                 parsed.themeMode === 'dark' ||
-                parsed.themeMode === 'system')
-            ) {
-              mode = parsed.themeMode;
+                parsed.themeMode === 'system'
+              ) {
+                mode = parsed.themeMode;
+              }
+              if (
+                parsed.glassOpacity === 'clear' ||
+                parsed.glassOpacity === 'light' ||
+                parsed.glassOpacity === 'standard' ||
+                parsed.glassOpacity === 'solid'
+              ) {
+                glass = parsed.glassOpacity;
+              }
             }
           }
         } catch (e) {
@@ -55,13 +65,14 @@
             : mode;
         var root = document.documentElement;
         root.dataset.theme = resolved;
+        root.dataset.glass = glass;
         root.style.colorScheme = resolved;
         var meta = document.getElementById('theme-color-meta');
         if (meta) meta.content = resolved === 'dark' ? '#1c1c1e' : '#f2f2f7';
       })();
     </script>
-    <script type="module" crossorigin src="./assets/index-C2vUf6h9.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-aep-pzHk.css">
+    <script type="module" crossorigin src="./assets/index-BOqaMb8U.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BNlr_bYI.css">
   </head>
   <body>
     <div id="root"></div>

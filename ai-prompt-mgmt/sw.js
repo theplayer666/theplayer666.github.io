@@ -11,7 +11,7 @@
  *
  * 改版本号只会切换缓存命名空间；普通发版不需要改，哈希文件名自带版本。
  */
-const VERSION = 'v2';
+const VERSION = 'v3';
 const CACHE_PREFIX = 'ai-prompt-';
 const CACHE = `${CACHE_PREFIX}${VERSION}`;
 const OFFLINE_TIMEOUT = 4000;
